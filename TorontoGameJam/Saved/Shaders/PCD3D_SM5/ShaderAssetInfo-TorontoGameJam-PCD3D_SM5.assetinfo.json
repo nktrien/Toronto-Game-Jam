@@ -42,15 +42,10 @@
 			"Assets": [
 				"/OculusVR/Materials/TouchForQuestRiftSControllerMaterial",
 				"/Game/Assets/Model/BOX/Box_4",
-				"/Game/Assets/Model/ukulele/uku",
-				"/Game/Assets/Model/smartphone/smartphone_Mat",
-<<<<<<< Updated upstream
-				"/Game/Assets/Model/grocery-bag/grocery_bag1",
-				"/Game/Assets/Model/Laptop/laptop1"
-=======
 				"/Game/Assets/Model/Laptop/laptop1",
-				"/Game/Assets/Model/grocery-bag/grocery_bag1"
->>>>>>> Stashed changes
+				"/Game/Assets/Model/grocery-bag/grocery_bag1",
+				"/Game/Assets/Model/ukulele/uku",
+				"/Game/Assets/Model/smartphone/smartphone_Mat"
 			]
 		},
 		{
@@ -96,23 +91,6 @@
 			]
 		},
 		{
-<<<<<<< Updated upstream
-			"ShaderMapHash": "E6C881C4367A017C30CB5E1C97A435C113595511",
-			"Assets": [
-				"/SpeedTreeImporter/SpeedTree9/SpeedTreeBillboardMaster"
-			]
-		},
-		{
-			"ShaderMapHash": "A954F8FBE7BFB625D53290FA0E043AE0D60F25A7",
-			"Assets": [
-				"/SpeedTreeImporter/SpeedTree9/SpeedTreeMaster"
-			]
-		},
-		{
-			"ShaderMapHash": "55691DB30875E073E96ED8309D594252A7C2E2A9",
-			"Assets": [
-				"/Engine/EngineDebugMaterials/M_VolumeRenderSphereTracePP"
-=======
 			"ShaderMapHash": "55691DB30875E073E96ED8309D594252A7C2E2A9",
 			"Assets": [
 				"/Engine/EngineDebugMaterials/M_VolumeRenderSphereTracePP"
@@ -128,7 +106,6 @@
 			"ShaderMapHash": "A954F8FBE7BFB625D53290FA0E043AE0D60F25A7",
 			"Assets": [
 				"/SpeedTreeImporter/SpeedTree9/SpeedTreeMaster"
->>>>>>> Stashed changes
 			]
 		},
 		{
@@ -307,67 +284,17 @@
 			]
 		},
 		{
-			"ShaderMapHash": "F0FA02A67FBBCF715E35F0F2A4FFD15364BB3086",
+			"ShaderMapHash": "20CE982936EF9D7933E4ECECD0C9CC249FAC4AC6",
 			"Assets": [
-				"/Game/StarterContent/Props/Materials/M_Frame"
-			]
-		},
-		{
-			"ShaderMapHash": "C380564A6414222F6A7E5F57D0F14982D5FD4F14",
-			"Assets": [
-				"/Engine/EngineSky/M_Sky_Panning_Clouds2"
-			]
-		},
-		{
-<<<<<<< Updated upstream
-			"ShaderMapHash": "8D5C9971654E22D92212E61C55D92EEA6D6F673A",
-			"Assets": [
-				"/Engine/BasicShapes/BasicShapeMaterial"
-			]
-		},
-		{
-			"ShaderMapHash": "BE009093AFED865BC4E39A6002509DDDDF832735",
-			"Assets": [
-				"/Game/Geometry/Meshes/CubeMaterial"
-			]
-		},
-		{
-			"ShaderMapHash": "65DE14EA77A90DD66FFE51621B61B64FC14BF332",
-			"Assets": [
-				"/Game/Assets/Material/Blue"
+				"/Game/Assets/Material/Brown"
 			]
 		},
 		{
 			"ShaderMapHash": "AF630D10EC29E174CC6981011633B94F1A86668B",
 			"Assets": [
-				"/Game/Assets/Model/Floor/FloorMat",
-				"/Game/Assets/Model/Stove/Main_001",
-				"/Game/Assets/Model/Fridge/Fridge_Mat"
-=======
-			"ShaderMapHash": "9487780FA238E67BDF6568E6DCA827234BCCD700",
-			"Assets": [
-				"/Game/Assets/Material/DarkBrown"
-			]
-		},
-		{
-			"ShaderMapHash": "AF630D10EC29E174CC6981011633B94F1A86668B",
-			"Assets": [
-				"/Game/Assets/Model/Stove/Main_001",
 				"/Game/Assets/Model/Fridge/Fridge_Mat",
+				"/Game/Assets/Model/Stove/Main_001",
 				"/Game/Assets/Model/Floor/FloorMat"
-			]
-		},
-		{
-			"ShaderMapHash": "8D5C9971654E22D92212E61C55D92EEA6D6F673A",
-			"Assets": [
-				"/Engine/BasicShapes/BasicShapeMaterial"
-			]
-		},
-		{
-			"ShaderMapHash": "65DE14EA77A90DD66FFE51621B61B64FC14BF332",
-			"Assets": [
-				"/Game/Assets/Material/Blue"
->>>>>>> Stashed changes
 			]
 		},
 		{
@@ -377,39 +304,45 @@
 			]
 		},
 		{
-<<<<<<< Updated upstream
-			"ShaderMapHash": "20CE982936EF9D7933E4ECECD0C9CC249FAC4AC6",
+			"ShaderMapHash": "F0FA02A67FBBCF715E35F0F2A4FFD15364BB3086",
 			"Assets": [
-				"/Game/Assets/Material/Brown"
-			]
-		},
-		{
-			"ShaderMapHash": "8CBD6CFD18B27C42D2B4EA26B79A6D32194BBCC6",
-			"Assets": [
-				"/Game/Assets/Material/Green"
+				"/Game/StarterContent/Props/Materials/M_Frame"
 			]
 		},
 		{
 			"ShaderMapHash": "9487780FA238E67BDF6568E6DCA827234BCCD700",
 			"Assets": [
 				"/Game/Assets/Material/DarkBrown"
-=======
-			"ShaderMapHash": "BE009093AFED865BC4E39A6002509DDDDF832735",
-			"Assets": [
-				"/Game/Geometry/Meshes/CubeMaterial"
 			]
 		},
 		{
-			"ShaderMapHash": "20CE982936EF9D7933E4ECECD0C9CC249FAC4AC6",
+			"ShaderMapHash": "C380564A6414222F6A7E5F57D0F14982D5FD4F14",
 			"Assets": [
-				"/Game/Assets/Material/Brown"
+				"/Engine/EngineSky/M_Sky_Panning_Clouds2"
+			]
+		},
+		{
+			"ShaderMapHash": "8D5C9971654E22D92212E61C55D92EEA6D6F673A",
+			"Assets": [
+				"/Engine/BasicShapes/BasicShapeMaterial"
 			]
 		},
 		{
 			"ShaderMapHash": "8CBD6CFD18B27C42D2B4EA26B79A6D32194BBCC6",
 			"Assets": [
 				"/Game/Assets/Material/Green"
->>>>>>> Stashed changes
+			]
+		},
+		{
+			"ShaderMapHash": "65DE14EA77A90DD66FFE51621B61B64FC14BF332",
+			"Assets": [
+				"/Game/Assets/Material/Blue"
+			]
+		},
+		{
+			"ShaderMapHash": "BE009093AFED865BC4E39A6002509DDDDF832735",
+			"Assets": [
+				"/Game/Geometry/Meshes/CubeMaterial"
 			]
 		}
 	]
