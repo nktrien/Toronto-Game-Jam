@@ -507,7 +507,8 @@ Engine:/Script/HardwareTargeting.HardwareTargetingSettings:AppliedTargetedHardwa
 Engine:/Script/HardwareTargeting.HardwareTargetingSettings:DefaultGraphicsPerformance:0=Maximum
 Engine:/Script/HardwareTargeting.HardwareTargetingSettings:AppliedDefaultGraphicsPerformance:0=Maximum
 Game:/Script/UnrealEd.ProjectPackagingSettings:StagingDirectory:0=(Path="C/Users/nktri/Documents/GitHub/Toronto-Game-Jam")
-Game:/Script/UnrealEd.ProjectPackagingSettings:StagingDirectory:1=(Path="C/Users/nktri/Documents/GitHub/Toronto-Game-Jam")
+Game:/Script/UnrealEd.ProjectPackagingSettings:StagingDirectory:1=(Path="D/Humber Study/2 Summer 2022/GAME158_Game Physics 2/Game Jam/package")
+Game:/Script/UnrealEd.ProjectPackagingSettings:StagingDirectory:2=(Path="C/Users/nktri/Documents/GitHub/Toronto-Game-Jam")
 Game:/Script/UnrealEd.ProjectPackagingSettings:BuildConfiguration:0=PPBC_Shipping
 Game:/Script/UnrealEd.ProjectPackagingSettings:FullRebuild:0=False
 Game:/Script/UnrealEd.ProjectPackagingSettings:UsePakFile:0=True

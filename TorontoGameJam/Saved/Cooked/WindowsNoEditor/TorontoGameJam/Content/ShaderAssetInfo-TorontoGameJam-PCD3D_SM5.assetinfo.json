@@ -42,10 +42,10 @@
 			"Assets": [
 				"/OculusVR/Materials/TouchForQuestRiftSControllerMaterial",
 				"/Game/Assets/Model/BOX/Box_4",
-				"/Game/Assets/Model/Laptop/laptop1",
-				"/Game/Assets/Model/grocery-bag/grocery_bag1",
 				"/Game/Assets/Model/ukulele/uku",
-				"/Game/Assets/Model/smartphone/smartphone_Mat"
+				"/Game/Assets/Model/smartphone/smartphone_Mat",
+				"/Game/Assets/Model/Laptop/laptop1",
+				"/Game/Assets/Model/grocery-bag/grocery_bag1"
 			]
 		},
 		{
@@ -284,35 +284,9 @@
 			]
 		},
 		{
-			"ShaderMapHash": "20CE982936EF9D7933E4ECECD0C9CC249FAC4AC6",
-			"Assets": [
-				"/Game/Assets/Material/Brown"
-			]
-		},
-		{
-			"ShaderMapHash": "AF630D10EC29E174CC6981011633B94F1A86668B",
-			"Assets": [
-				"/Game/Assets/Model/Fridge/Fridge_Mat",
-				"/Game/Assets/Model/Stove/Main_001",
-				"/Game/Assets/Model/Floor/FloorMat"
-			]
-		},
-		{
-			"ShaderMapHash": "B679EAABE69BE4CC7114DF493E287802A16708D0",
-			"Assets": [
-				"/Game/Assets/Material/off-white"
-			]
-		},
-		{
 			"ShaderMapHash": "F0FA02A67FBBCF715E35F0F2A4FFD15364BB3086",
 			"Assets": [
 				"/Game/StarterContent/Props/Materials/M_Frame"
-			]
-		},
-		{
-			"ShaderMapHash": "9487780FA238E67BDF6568E6DCA827234BCCD700",
-			"Assets": [
-				"/Game/Assets/Material/DarkBrown"
 			]
 		},
 		{
@@ -322,15 +296,23 @@
 			]
 		},
 		{
-			"ShaderMapHash": "8D5C9971654E22D92212E61C55D92EEA6D6F673A",
+			"ShaderMapHash": "9487780FA238E67BDF6568E6DCA827234BCCD700",
 			"Assets": [
-				"/Engine/BasicShapes/BasicShapeMaterial"
+				"/Game/Assets/Material/DarkBrown"
 			]
 		},
 		{
-			"ShaderMapHash": "8CBD6CFD18B27C42D2B4EA26B79A6D32194BBCC6",
+			"ShaderMapHash": "AF630D10EC29E174CC6981011633B94F1A86668B",
 			"Assets": [
-				"/Game/Assets/Material/Green"
+				"/Game/Assets/Model/Stove/Main_001",
+				"/Game/Assets/Model/Fridge/Fridge_Mat",
+				"/Game/Assets/Model/Floor/FloorMat"
+			]
+		},
+		{
+			"ShaderMapHash": "8D5C9971654E22D92212E61C55D92EEA6D6F673A",
+			"Assets": [
+				"/Engine/BasicShapes/BasicShapeMaterial"
 			]
 		},
 		{
@@ -340,9 +322,27 @@
 			]
 		},
 		{
+			"ShaderMapHash": "B679EAABE69BE4CC7114DF493E287802A16708D0",
+			"Assets": [
+				"/Game/Assets/Material/off-white"
+			]
+		},
+		{
 			"ShaderMapHash": "BE009093AFED865BC4E39A6002509DDDDF832735",
 			"Assets": [
 				"/Game/Geometry/Meshes/CubeMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "20CE982936EF9D7933E4ECECD0C9CC249FAC4AC6",
+			"Assets": [
+				"/Game/Assets/Material/Brown"
+			]
+		},
+		{
+			"ShaderMapHash": "8CBD6CFD18B27C42D2B4EA26B79A6D32194BBCC6",
+			"Assets": [
+				"/Game/Assets/Material/Green"
 			]
 		}
 	]
