@@ -396,6 +396,7 @@
 			}
 		},
 		{
+<<<<<<< Updated upstream
 			"File": "../../../Engine/Plugins/Developer/PixWinPlugin/PixWinPlugin.uplugin",
 			"Descriptor": 
 			{
@@ -431,6 +432,8 @@
 			}
 		},
 		{
+=======
+>>>>>>> Stashed changes
 			"File": "../../../Engine/Plugins/Developer/PluginUtils/PluginUtils.uplugin",
 			"Descriptor": 
 			{
