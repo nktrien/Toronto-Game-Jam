@@ -1387,3 +1387,1103 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.05.15-17.14.24:748][728]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData
 [2022.05.15-17.14.24:748][728]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
 [2022.05.15-17.14.29:028][958]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2022.05.15-17.15.39:438][889]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight6)
+[2022.05.15-17.15.44:437][177]MapCheck: New page: Map Check
+[2022.05.15-17.15.44:455][177]Cmd: MAP REBUILD ALLVISIBLE
+[2022.05.15-17.15.44:455][177]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2022.05.15-17.15.44:469][177]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=false
+[2022.05.15-17.15.44:532][177]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2022.05.15-17.15.44:532][177]LogNavigationDataBuild: Display:    Building navigation data using PHYSICS_INTERFACE_PHYSX.
+[2022.05.15-17.15.44:532][177]LogNavigationDataBuild: Display:    Building navigation data using WITH_PHYSX.
+[2022.05.15-17.15.44:614][177]LogUObjectHash: Compacting FUObjectHashTables data took   6.19ms
+[2022.05.15-17.15.44:659][177]LogLevel: Display: Export Material TexCoord Scales took 0.042 seconds.
+[2022.05.15-17.15.44:667][177]TextureStreamingBuild: Display: Build Texture Streaming took 0.007 seconds.
+[2022.05.15-17.15.44:754][177]LogUObjectHash: Compacting FUObjectHashTables data took   5.43ms
+[2022.05.15-17.15.44:760][177]LightingResults: New page: Lighting Build - May 15, 2022, 9:15:44 AM
+[2022.05.15-17.15.44:815][177]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2022.05.15-17.15.44:878][177]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2022.05.15-17.15.44:892][177]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2022.05.15-17.15.45:406][177]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2022.05.15-17.15.45:406][177]LogSwarmInterface: [TryOpenConnection] Local Process ID is 3068
+[2022.05.15-17.15.48:471][177]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2022.05.15-17.15.48:471][177]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2022.05.15-17.15.48:471][177]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2022.05.15-17.15.48:471][177]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2022.05.15-17.15.48:471][177]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2022.05.15-17.15.48:832][177]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2022.05.15-17.15.48:832][177]MapCheck: New page: FirstPersonExampleMap - May 15, 2022, 9:15:48 AM
+[2022.05.15-17.15.48:833][177]MapCheck: Error: WorldInfo_0 Maps need lighting rebuilt 
+[2022.05.15-17.15.48:834][177]MapCheck: Warning: retro_fridge_2 Static mesh actor has NULL StaticMesh property 
+[2022.05.15-17.15.48:834][177]MapCheck: Warning: fridge_top_door_5 Static mesh actor has NULL StaticMesh property 
+[2022.05.15-17.15.48:834][177]MapCheck: Warning: fridge_bot_door_11 Static mesh actor has NULL StaticMesh property 
+[2022.05.15-17.15.48:834][177]MapCheck: Warning: painting1_2 Static mesh actor has NULL StaticMesh property 
+[2022.05.15-17.15.48:834][177]MapCheck: Warning: painting_5 Static mesh actor has NULL StaticMesh property 
+[2022.05.15-17.15.48:834][177]MapCheck: Warning: FridgeRetro_BP_2 Static mesh actor has NULL StaticMesh property 
+[2022.05.15-17.15.48:834][177]MapCheck: Map check complete: 1 Error(s), 6 Warning(s), took 1.975ms to complete.
+[2022.05.15-17.15.48:836][177]LogEditorBuildUtils: Build time 0:04
+[2022.05.15-17.15.49:187][177]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer MaterialInstanceDynamic_0 in PCD3D_SM5, Default, SM5 (DDC key hash: E196F04F6F9970EA62120D75BF8070669BA10977), compiling. 
+[2022.05.15-17.15.49:194][177]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'Low' priority
+[2022.05.15-17.15.49:195][177]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer MaterialInstanceDynamic_0 in PCD3D_SM5, Default, SM5 (DDC key hash: ED95D2B258450F45B96DD24FF92CD0213EF3DA23), compiling. 
+[2022.05.15-17.15.49:199][177]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'Low' priority
+[2022.05.15-17.15.49:261][177]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2022.05.15-17.15.49:261][177]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2022.05.15-17.15.49:261][177]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2022.05.15-17.15.49:261][177]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2022.05.15-17.15.49:261][177]LogShaderCompilers: Display: Started 4 'Local' shader compile jobs with 'Low' priority
+[2022.05.15-17.15.49:275][178]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer CubeMaterial in PCD3D_SM5, Default, SM5 (DDC key hash: 765FDBEB5E12D5A450879354BD4B749E5A971C1F), compiling. 
+[2022.05.15-17.15.49:279][178]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'Low' priority
+[2022.05.15-17.15.49:280][178]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 2
+[2022.05.15-17.15.49:280][178]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1
+[2022.05.15-17.15.49:280][178]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Low' priority
+[2022.05.15-17.15.49:280][178]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer CubeMaterial in PCD3D_SM5, Default, SM5 (DDC key hash: 2E8EDC03AE267D7ED5A5DCBC70BBC3E8C5503031), compiling. 
+[2022.05.15-17.15.49:284][178]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'Low' priority
+[2022.05.15-17.15.49:298][178]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
+[2022.05.15-17.15.49:298][178]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2022.05.15-17.15.49:298][178]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Low' priority
+[2022.05.15-17.15.49:336][179]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer FloorMat in PCD3D_SM5, Default, SM5 (DDC key hash: A58D60B383B76318272CB8C3E63266A8C00CF931), compiling. 
+[2022.05.15-17.15.49:341][179]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'Low' priority
+[2022.05.15-17.15.49:342][179]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer FloorMat in PCD3D_SM5, Default, SM5 (DDC key hash: 70713D9F0609FD44818DF6BBF2DD546D71296696), compiling. 
+[2022.05.15-17.15.49:347][179]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'Low' priority
+[2022.05.15-17.15.49:364][180]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer Fridge_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 5B664A3E56E390ACF3A758F02452A46E5D9CE2B5), compiling. 
+[2022.05.15-17.15.49:371][180]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'Low' priority
+[2022.05.15-17.15.49:373][180]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer Fridge_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 17562F707575DD579D1388FD5C29D724F910B8BA), compiling. 
+[2022.05.15-17.15.49:380][180]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'Low' priority
+[2022.05.15-17.15.49:419][181]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer Main_001 in PCD3D_SM5, Default, SM5 (DDC key hash: F4067157A264D080456FAD60F80F737A165C73D2), compiling. 
+[2022.05.15-17.15.49:424][181]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'Low' priority
+[2022.05.15-17.15.49:425][181]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer Main_001 in PCD3D_SM5, Default, SM5 (DDC key hash: C4700CBBD77FAA812F3C49E2551CFE09E5410EDF), compiling. 
+[2022.05.15-17.15.49:429][181]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'Low' priority
+[2022.05.15-17.15.49:450][182]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer WorldGridMaterial in PCD3D_SM5, Default, SM5 (DDC key hash: 09BE4C7A08E9CF5953A86E83F05117832C1466B9), compiling. Is special engine material.
+[2022.05.15-17.15.49:456][182]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'Low' priority
+[2022.05.15-17.15.49:460][182]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer WorldGridMaterial in PCD3D_SM5, Default, SM5 (DDC key hash: A2E71CE4DF26E5630E073D9FE8BE1AFD709D796A), compiling. Is special engine material.
+[2022.05.15-17.15.49:465][182]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'Low' priority
+[2022.05.15-17.15.49:483][183]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer off-white in PCD3D_SM5, Default, SM5 (DDC key hash: C5CF9810102BA01D0CB1EE9F7624325FA49527FD), compiling. 
+[2022.05.15-17.15.49:489][183]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'Low' priority
+[2022.05.15-17.15.49:491][183]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer off-white in PCD3D_SM5, Default, SM5 (DDC key hash: 8FAEE69AC88EFF10F44DE523155A7204878F5D68), compiling. 
+[2022.05.15-17.15.49:496][183]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'Low' priority
+[2022.05.15-17.15.49:513][184]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer Blue in PCD3D_SM5, Default, SM5 (DDC key hash: F72B22778E4CEAA3F643A570A97CD96A18612032), compiling. 
+[2022.05.15-17.15.49:520][184]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'Low' priority
+[2022.05.15-17.15.49:522][184]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer Blue in PCD3D_SM5, Default, SM5 (DDC key hash: 7A46ADEF9962FF268207481B0E7C930FABE8B70C), compiling. 
+[2022.05.15-17.15.49:527][184]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'Low' priority
+[2022.05.15-17.15.49:556][185]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer DarkBrown in PCD3D_SM5, Default, SM5 (DDC key hash: 672DE86AA68C1B34F3D55F1708A3382C8F598890), compiling. 
+[2022.05.15-17.15.49:567][185]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'Low' priority
+[2022.05.15-17.15.49:572][185]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer DarkBrown in PCD3D_SM5, Default, SM5 (DDC key hash: A2056AE899DFBCB5BA932FF1FA9D08E01B840E90), compiling. 
+[2022.05.15-17.15.49:586][185]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'Low' priority
+[2022.05.15-17.15.49:608][186]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer Green in PCD3D_SM5, Default, SM5 (DDC key hash: ED14158D6DAB73553F3975C3578FC7005075FBC3), compiling. 
+[2022.05.15-17.15.49:634][186]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'Low' priority
+[2022.05.15-17.15.49:636][186]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer Green in PCD3D_SM5, Default, SM5 (DDC key hash: 94F7F21335E050C41B580C3983889485E7711832), compiling. 
+[2022.05.15-17.15.49:642][186]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'Low' priority
+[2022.05.15-17.15.49:661][187]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer Brown in PCD3D_SM5, Default, SM5 (DDC key hash: BF515133FD16773B748D7BF2C95FF953596AB9B5), compiling. 
+[2022.05.15-17.15.49:667][187]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'Low' priority
+[2022.05.15-17.15.49:669][187]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer Brown in PCD3D_SM5, Default, SM5 (DDC key hash: 6EF211E0004DE2F843D481E786D44884DF3ED2F6), compiling. 
+[2022.05.15-17.15.49:674][187]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'Low' priority
+[2022.05.15-17.15.49:703][188]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer BasicShapeMaterial in PCD3D_SM5, Default, SM5 (DDC key hash: 24B60B88D19FBA316DBEE5D7CD3C4E4E47E5E339), compiling. 
+[2022.05.15-17.15.49:712][188]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'Low' priority
+[2022.05.15-17.15.49:715][188]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer BasicShapeMaterial in PCD3D_SM5, Default, SM5 (DDC key hash: 009404A3B8B08455BB16398882E1A35CB76697F6), compiling. 
+[2022.05.15-17.15.49:723][188]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'Low' priority
+[2022.05.15-17.15.52:628][189]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 40
+[2022.05.15-17.15.52:628][189]LogShaderCompilers: Display: Started 6 'Local' shader compile jobs with 'Low' priority
+[2022.05.15-17.15.52:628][189]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 34
+[2022.05.15-17.15.52:628][189]LogShaderCompilers: Display: Started 5 'Local' shader compile jobs with 'Low' priority
+[2022.05.15-17.15.52:628][189]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 29
+[2022.05.15-17.15.52:628][189]LogShaderCompilers: Display: Started 4 'Local' shader compile jobs with 'Low' priority
+[2022.05.15-17.15.52:628][189]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 25
+[2022.05.15-17.15.52:628][189]LogShaderCompilers: Display: Started 4 'Local' shader compile jobs with 'Low' priority
+[2022.05.15-17.15.52:628][189]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 21
+[2022.05.15-17.15.52:628][189]LogShaderCompilers: Display: Started 3 'Local' shader compile jobs with 'Low' priority
+[2022.05.15-17.15.52:628][189]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 18
+[2022.05.15-17.15.52:628][189]LogShaderCompilers: Display: Started 3 'Local' shader compile jobs with 'Low' priority
+[2022.05.15-17.15.52:628][189]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 15
+[2022.05.15-17.15.52:628][189]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Low' priority
+[2022.05.15-17.15.52:628][189]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 13
+[2022.05.15-17.15.52:628][189]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Low' priority
+[2022.05.15-17.15.52:628][189]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 11
+[2022.05.15-17.15.52:628][189]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Low' priority
+[2022.05.15-17.15.52:628][189]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 9
+[2022.05.15-17.15.52:628][189]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Low' priority
+[2022.05.15-17.15.52:628][189]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 7
+[2022.05.15-17.15.52:628][189]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Low' priority
+[2022.05.15-17.15.52:628][189]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 6
+[2022.05.15-17.15.52:628][189]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Low' priority
+[2022.05.15-17.15.52:628][189]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2022.05.15-17.15.52:628][189]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Low' priority
+[2022.05.15-17.15.52:628][189]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 4
+[2022.05.15-17.15.52:628][189]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Low' priority
+[2022.05.15-17.15.52:628][189]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2022.05.15-17.15.52:628][189]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Low' priority
+[2022.05.15-17.15.52:628][189]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 2
+[2022.05.15-17.15.52:628][189]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Low' priority
+[2022.05.15-17.15.52:628][189]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1
+[2022.05.15-17.15.52:628][189]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Low' priority
+[2022.05.15-17.15.52:628][189]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.05.15-17.15.52:628][189]LogShaderCompilers: Display: Total job queries 48, among them cache hits 0 (0.00%)
+[2022.05.15-17.15.52:628][189]LogShaderCompilers: Display: Tracking 48 distinct input hashes that result in 14 distinct outputs (29.17%)
+[2022.05.15-17.15.52:628][189]LogShaderCompilers: Display: RAM used: 0.03 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.00%
+[2022.05.15-17.15.52:628][189]LogShaderCompilers: Display: ================================================
+[2022.05.15-17.15.53:127][205]LogUObjectHash: Compacting FUObjectHashTables data took   6.04ms
+[2022.05.15-17.16.02:090][655]LightingResults: Warning: rounded_table Object has overlapping UVs.
+[2022.05.15-17.16.02:090][655]LightingResults: rounded_table Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2022.05.15-17.16.02:155][658]LightingResults: Warning: door Object has overlapping UVs.
+[2022.05.15-17.16.02:155][658]LightingResults: door Lightmap UV are overlapping by 24.2%. Please adjust content - Enable Error Coloring to visualize.
+[2022.05.15-17.16.02:287][665]LightingResults: Warning: plant1 Object has overlapping UVs.
+[2022.05.15-17.16.02:287][665]LightingResults: plant1 Lightmap UV are overlapping by 33.0%. Please adjust content - Enable Error Coloring to visualize.
+[2022.05.15-17.16.02:308][666]LightingResults: Warning: plant2 Object has overlapping UVs.
+[2022.05.15-17.16.02:308][666]LightingResults: plant2 Lightmap UV are overlapping by 39.3%. Please adjust content - Enable Error Coloring to visualize.
+[2022.05.15-17.16.13:897][239]Job is a success!
+[2022.05.15-17.16.14:041][240]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.021s
+[2022.05.15-17.16.14:042][240]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2022.05.15-17.16.14:042][240]LogVolumetricLightmapImport:      BrickData (all levels) 0.2Mb
+[2022.05.15-17.16.14:042][240]LogVolumetricLightmapImport:      Bricks at depth
+[2022.05.15-17.16.14:042][240]LogVolumetricLightmapImport:          0: 2.4% covering 100.0% of volume
+[2022.05.15-17.16.14:042][240]LogVolumetricLightmapImport:          1: 9.8% covering 6.2% of volume
+[2022.05.15-17.16.14:042][240]LogVolumetricLightmapImport:          2: 87.8% covering 0.9% of volume
+[2022.05.15-17.16.14:042][240]LogVolumetricLightmapImport:      Bricks in each level
+[2022.05.15-17.16.14:042][240]LogVolumetricLightmapImport:          FirstPersonExampleMap 			 41 bricks 	 100.0% (Persistent Level)
+[2022.05.15-17.16.14:178][240]LightingResults: Warning: PointLight3 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2022.05.15-17.16.14:178][240]LightingResults: Warning: PointLight4 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2022.05.15-17.16.14:178][240]LightingResults: Warning: PointLight6_8 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2022.05.15-17.16.14:178][240]LightingResults: Warning: PointLight7 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2022.05.15-17.16.14:178][240]LightingResults: Warning: PointLight8 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2022.05.15-17.16.14:178][240]LightingResults: Warning: PointLight9_8 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2022.05.15-17.16.14:579][240]LogTexture: Display: Building textures: SkyOcclusion0_1 (OODLE_AutoDXT, 2048X1024)
+[2022.05.15-17.16.14:579][240]LogTextureFormatOodle: Display: non-RDO encode 2048 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.05.15-17.16.14:579][240]LogTextureFormatOodle: Display: non-RDO encode 1024 x 512 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.05.15-17.16.14:579][240]LogTexture: Display: Building textures: HQ_Lightmap0_1 (OODLE_AutoDXT, 2048X2048)
+[2022.05.15-17.16.14:579][240]LogTexture: Display: Building textures: SkyOcclusion0_2 (OODLE_AutoDXT, 64X32)
+[2022.05.15-17.16.14:579][240]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (OODLE_DXT1, 2048X2048)
+[2022.05.15-17.16.14:579][240]LogTexture: Display: Building textures: HQ_Lightmap0_2 (OODLE_AutoDXT, 64X64)
+[2022.05.15-17.16.14:579][240]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (OODLE_DXT1, 64X64)
+[2022.05.15-17.16.14:579][240]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.05.15-17.16.14:579][240]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.05.15-17.16.14:579][240]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.05.15-17.16.14:579][240]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.05.15-17.16.14:579][240]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 32X32)
+[2022.05.15-17.16.14:594][240]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (BGRA8, 1024X256)
+[2022.05.15-17.16.14:733][240]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 1024X1024)
+[2022.05.15-17.16.14:733][240]Lightmass on LAPTOP-H77C266C: 17.6 sec total, 537 ms importing, 19 ms setup, 2.37 sec photons, 14.6 sec processing, 0 ms extra exporting [55/55 mappings]. Threads: 2:40 min total, 31.1 sec processing.
+[2022.05.15-17.16.14:733][240]LogStaticLightingSystem: FirstPersonExampleMap_BuiltData storing lightmap data for 55 meshes in 4 LightmapResourceClusters (13.8 Meshes per cluster).
+[2022.05.15-17.16.14:737][240]LogMaterial: Display: Material /Game/Assets/Model/Stove/Main_001.Main_001 needed to have new flag set bUsedWithStaticLighting !
+[2022.05.15-17.16.14:739][240]LogMaterial: Display: Missing cached shadermap for Main_001 in PCD3D_SM5, Default, SM5 (DDC key hash: DD290471CB8888C795789235BEFC27BCE1989D00), compiling. 
+[2022.05.15-17.16.14:792][240]LogShaderCompilers: Display: Submitted 25 shader compile jobs with 'Low' priority
+[2022.05.15-17.16.14:793][240]LogMaterial: Display: Material /Game/Assets/Material/off-white.off-white needed to have new flag set bUsedWithStaticLighting !
+[2022.05.15-17.16.14:794][240]LogMaterial: Display: Missing cached shadermap for off-white in PCD3D_SM5, Default, SM5 (DDC key hash: DFDCB664B4B8354F0044223B6D924F7ED8A2935D), compiling. 
+[2022.05.15-17.16.14:811][240]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2022.05.15-17.16.14:811][240]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2022.05.15-17.16.14:811][240]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 23
+[2022.05.15-17.16.14:811][240]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 20
+[2022.05.15-17.16.14:811][240]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 17
+[2022.05.15-17.16.14:811][240]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 14
+[2022.05.15-17.16.14:811][240]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 11
+[2022.05.15-17.16.14:811][240]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 8
+[2022.05.15-17.16.14:811][240]LogShaderCompilers: Display: Started 18 'Local' shader compile jobs with 'Normal' priority
+[2022.05.15-17.16.14:811][240]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.05.15-17.16.14:811][240]LogShaderCompilers: Display: Submitted 25 shader compile jobs with 'Low' priority
+[2022.05.15-17.16.14:811][240]LogMaterial: Display: Material /Game/Assets/Material/Green.Green needed to have new flag set bUsedWithStaticLighting !
+[2022.05.15-17.16.14:813][240]LogMaterial: Display: Missing cached shadermap for Green in PCD3D_SM5, Default, SM5 (DDC key hash: B5CF9DA7881F1202A9D2EB20F63AB84649F93AA1), compiling. 
+[2022.05.15-17.16.14:832][240]LogShaderCompilers: Display: Submitted 25 shader compile jobs with 'Low' priority
+[2022.05.15-17.16.14:832][240]LogMaterial: Display: Material /Game/Assets/Material/Brown.Brown needed to have new flag set bUsedWithStaticLighting !
+[2022.05.15-17.16.14:834][240]LogMaterial: Display: Missing cached shadermap for Brown in PCD3D_SM5, Default, SM5 (DDC key hash: 155DC8A4E5FE65A64CE270E16FB52AFDAE6A274C), compiling. 
+[2022.05.15-17.16.14:855][240]LogShaderCompilers: Display: Submitted 25 shader compile jobs with 'Low' priority
+[2022.05.15-17.16.14:855][240]LogMaterial: Display: Material /Game/Assets/Model/Floor/FloorMat.FloorMat needed to have new flag set bUsedWithStaticLighting !
+[2022.05.15-17.16.14:857][240]LogMaterial: Display: Missing cached shadermap for FloorMat in PCD3D_SM5, Default, SM5 (DDC key hash: 7A21A13F4665C763C5DBC0B87B2D5E4664B3EDA5), compiling. 
+[2022.05.15-17.16.14:881][240]LogShaderCompilers: Display: Submitted 25 shader compile jobs with 'Low' priority
+[2022.05.15-17.16.14:882][240]LogMaterial: Display: Material /Game/Assets/Material/Blue.Blue needed to have new flag set bUsedWithStaticLighting !
+[2022.05.15-17.16.14:883][240]LogMaterial: Display: Missing cached shadermap for Blue in PCD3D_SM5, Default, SM5 (DDC key hash: 39BE8DC6572FF97BF2FA0C25693D4DB91577AF53), compiling. 
+[2022.05.15-17.16.14:908][240]LogShaderCompilers: Display: Submitted 25 shader compile jobs with 'Low' priority
+[2022.05.15-17.16.14:908][240]LogMaterial: Display: Material /Game/Assets/Material/DarkBrown.DarkBrown needed to have new flag set bUsedWithStaticLighting !
+[2022.05.15-17.16.14:910][240]LogMaterial: Display: Missing cached shadermap for DarkBrown in PCD3D_SM5, Default, SM5 (DDC key hash: 5D29FA7162091EBCD189C873F9F820E79B0D41E3), compiling. 
+[2022.05.15-17.16.14:934][240]LogShaderCompilers: Display: Submitted 25 shader compile jobs with 'Low' priority
+[2022.05.15-17.16.15:035][240]LogUObjectHash: Compacting FUObjectHashTables data took   6.70ms
+[2022.05.15-17.16.15:076][240]LogStaticLightingSystem: Illumination: 30.2 sec (360 ms encoding lightmaps, 160 ms encoding shadowmaps)
+[2022.05.15-17.16.15:076][240]LogStaticLightingSystem: Lightmap texture memory:  10.7 MB (10.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2022.05.15-17.16.15:076][240]LogStaticLightingSystem: Shadowmap texture memory: 6.7 MB (6.7 MB streaming, 0.0 MB non-streaming), 3 textures
+[2022.05.15-17.16.20:509][240]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 16
+[2022.05.15-17.16.20:509][240]LogShaderCompilers: Display: Started 3 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.05.15-17.16.20:509][240]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 13
+[2022.05.15-17.16.20:509][240]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.05.15-17.16.20:509][240]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 11
+[2022.05.15-17.16.20:509][240]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.05.15-17.16.20:509][240]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 9
+[2022.05.15-17.16.20:509][240]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.05.15-17.16.20:509][240]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2022.05.15-17.16.20:509][240]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.05.15-17.16.20:509][240]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 6
+[2022.05.15-17.16.20:509][240]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.05.15-17.16.20:509][240]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 5
+[2022.05.15-17.16.20:509][240]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.05.15-17.16.20:509][240]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2022.05.15-17.16.20:509][240]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.05.15-17.16.20:509][240]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 3
+[2022.05.15-17.16.20:509][240]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.05.15-17.16.20:509][240]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 2
+[2022.05.15-17.16.20:509][240]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.05.15-17.16.20:509][240]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2022.05.15-17.16.20:509][240]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.05.15-17.16.20:509][240]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 139
+[2022.05.15-17.16.20:509][240]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.05.15-17.16.20:509][240]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 129
+[2022.05.15-17.16.20:509][240]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.05.15-17.16.20:509][240]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 119
+[2022.05.15-17.16.20:509][240]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.05.15-17.16.20:509][240]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 109
+[2022.05.15-17.16.20:509][240]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.05.15-17.16.20:509][240]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 99
+[2022.05.15-17.16.20:509][240]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.05.15-17.16.20:509][240]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 89
+[2022.05.15-17.16.20:509][240]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.05.15-17.16.20:509][240]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 79
+[2022.05.15-17.16.20:509][240]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.05.15-17.16.20:509][240]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 69
+[2022.05.15-17.16.20:509][240]LogShaderCompilers: Display: Started 9 'Local' shader compile jobs with 'Normal' priority
+[2022.05.15-17.16.20:510][240]DumpUnbuiltLightIteractions
+[2022.05.15-17.16.20:510][240]Lights with unbuilt interactions: 0
+[2022.05.15-17.16.20:510][240]
+[2022.05.15-17.16.20:510][240]Primitives with unbuilt interactions: 0
+[2022.05.15-17.16.22:405][240]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 60
+[2022.05.15-17.16.22:405][240]LogShaderCompilers: Display: Started 8 'Local' shader compile jobs with 'Normal' priority
+[2022.05.15-17.16.22:613][240]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 52
+[2022.05.15-17.16.22:613][240]LogShaderCompilers: Display: Started 7 'Local' shader compile jobs with 'Normal' priority
+[2022.05.15-17.16.22:820][240]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 45
+[2022.05.15-17.16.22:820][240]LogShaderCompilers: Display: Started 6 'Local' shader compile jobs with 'Normal' priority
+[2022.05.15-17.16.23:236][240]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 39
+[2022.05.15-17.16.23:236][240]LogShaderCompilers: Display: Started 5 'Local' shader compile jobs with 'Normal' priority
+[2022.05.15-17.16.23:444][240]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 34
+[2022.05.15-17.16.23:444][240]LogShaderCompilers: Display: Started 5 'Local' shader compile jobs with 'Normal' priority
+[2022.05.15-17.16.23:444][240]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 29
+[2022.05.15-17.16.23:444][240]LogShaderCompilers: Display: Started 4 'Local' shader compile jobs with 'Normal' priority
+[2022.05.15-17.16.24:278][240]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 25
+[2022.05.15-17.16.24:278][240]LogShaderCompilers: Display: Started 4 'Local' shader compile jobs with 'Normal' priority
+[2022.05.15-17.16.24:278][240]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 21
+[2022.05.15-17.16.24:278][240]LogShaderCompilers: Display: Started 3 'Local' shader compile jobs with 'Normal' priority
+[2022.05.15-17.16.25:530][240]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 18
+[2022.05.15-17.16.25:530][240]LogShaderCompilers: Display: Started 3 'Local' shader compile jobs with 'Normal' priority
+[2022.05.15-17.16.25:738][240]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 15
+[2022.05.15-17.16.25:738][240]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2022.05.15-17.16.26:155][240]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 13
+[2022.05.15-17.16.26:155][240]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2022.05.15-17.16.26:362][240]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 11
+[2022.05.15-17.16.26:362][240]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2022.05.15-17.16.26:362][240]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 9
+[2022.05.15-17.16.26:362][240]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2022.05.15-17.16.26:362][240]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 7
+[2022.05.15-17.16.26:362][240]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.05.15-17.16.26:570][240]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 6
+[2022.05.15-17.16.26:570][240]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.05.15-17.16.26:778][240]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 5
+[2022.05.15-17.16.26:778][240]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.05.15-17.16.26:778][240]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2022.05.15-17.16.26:778][240]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.05.15-17.16.26:987][240]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2022.05.15-17.16.26:987][240]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.05.15-17.16.26:987][240]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2022.05.15-17.16.26:987][240]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.05.15-17.16.27:195][240]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1
+[2022.05.15-17.16.27:195][240]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.05.15-17.16.27:619][240]LogTexture: Display: Building textures: NewReflectionComponentTexture4E9A31EC459F824B7293D9A5960F381F (BGRA8, 128X128)
+[2022.05.15-17.16.27:656][241]Cmd: MAP CHECK NOTIFYRESULTS
+[2022.05.15-17.16.27:656][241]MapCheck: New page: FirstPersonExampleMap - May 15, 2022, 9:16:27 AM
+[2022.05.15-17.16.27:657][241]MapCheck: Warning: retro_fridge_2 Static mesh actor has NULL StaticMesh property 
+[2022.05.15-17.16.27:657][241]MapCheck: Warning: fridge_top_door_5 Static mesh actor has NULL StaticMesh property 
+[2022.05.15-17.16.27:657][241]MapCheck: Warning: fridge_bot_door_11 Static mesh actor has NULL StaticMesh property 
+[2022.05.15-17.16.27:657][241]MapCheck: Warning: painting1_2 Static mesh actor has NULL StaticMesh property 
+[2022.05.15-17.16.27:657][241]MapCheck: Warning: painting_5 Static mesh actor has NULL StaticMesh property 
+[2022.05.15-17.16.27:657][241]MapCheck: Warning: FridgeRetro_BP_2 Static mesh actor has NULL StaticMesh property 
+[2022.05.15-17.16.27:657][241]MapCheck: Map check complete: 0 Error(s), 6 Warning(s), took 0.834ms to complete.
+[2022.05.15-17.16.31:214][444]LogSlate: Window 'Message Log' being destroyed
+[2022.05.15-17.16.31:218][444]LogSlate: Window 'Message Log' being destroyed
+[2022.05.15-17.16.34:252][610]LogTemp: Repeating last play command: Selected Viewport
+[2022.05.15-17.16.34:260][610]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.15-17.16.34:260][610]PIE: New page: PIE session: FirstPersonExampleMap (May 15, 2022, 9:16:34 AM)
+[2022.05.15-17.16.34:260][610]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.05.15-17.16.34:275][610]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015111s)
+[2022.05.15-17.16.34:277][610]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2022.05.15-17.16.34:277][610]LogPlayLevel: PIE: World Init took: (0.001874s)
+[2022.05.15-17.16.34:277][610]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.017126s)
+[2022.05.15-17.16.34:331][610]LogUObjectHash: Compacting FUObjectHashTables data took   6.06ms
+[2022.05.15-17.16.34:333][610]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2022.05.15-17.16.34:333][610]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.15-17.16.34:333][610]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.15-17.16.34:333][610]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.15-17.16.34:333][610]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.15-17.16.34:333][610]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.15-17.16.34:333][610]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.15-17.16.34:333][610]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.15-17.16.34:333][610]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.15-17.16.34:333][610]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.15-17.16.34:333][610]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.15-17.16.34:333][610]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.15-17.16.34:333][610]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.15-17.16.34:338][610]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.15-17.16.34:338][610]LogAudioMixer: Display: 1: FrontRight
+[2022.05.15-17.16.34:355][610]LogAudioMixer: Display: Using Audio Device Speakers (PRO)
+[2022.05.15-17.16.34:355][610]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.15-17.16.34:355][610]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.15-17.16.34:355][610]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.15-17.16.34:356][610]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.15-17.16.34:356][610]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.05.15-17.16.34:356][610]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.05.15-17.16.34:358][610]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.05.15-17.16.34:358][610]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.05.15-17.16.34:358][610]LogInit: FAudioDevice initialized.
+[2022.05.15-17.16.34:358][610]LogAudio: Display: Audio Device (ID: 9) registered with world 'FirstPersonExampleMap'.
+[2022.05.15-17.16.34:367][610]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2022.05.15-17.16.34:370][610]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2022.05.15-13.16.34
+[2022.05.15-17.16.34:370][610]LogWorld: Bringing up level for play took: 0.002967
+[2022.05.15-17.16.34:370][610]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2022.05.15-17.16.34:373][610]PIE: Server logged in
+[2022.05.15-17.16.34:374][610]PIE: Play in editor total start time 0.116 seconds.
+[2022.05.15-17.16.34:403][610]LogAudio: Warning: Detected orphaned looping sound 'BackgroundMusics_Cue'.
+[2022.05.15-17.16.37:990][819]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.15-17.16.37:990][819]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.05.15-17.16.37:990][819]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.15-17.16.37:991][819]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.15-17.16.38:000][819]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.15-17.16.38:014][819]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.15-17.16.38:054][819]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.15-17.16.38:055][819]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.15-17.16.38:056][819]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.15-17.16.38:058][819]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.15-17.16.38:064][819]LogUObjectHash: Compacting FUObjectHashTables data took   4.26ms
+[2022.05.15-17.16.38:099][820]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2022.05.15-17.16.50:778][526]MapCheck: New page: Map Check
+[2022.05.15-17.16.50:794][526]Cmd: MAP REBUILD ALLVISIBLE
+[2022.05.15-17.16.50:794][526]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2022.05.15-17.16.50:796][526]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=false
+[2022.05.15-17.16.50:817][526]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2022.05.15-17.16.50:817][526]LogNavigationDataBuild: Display:    Building navigation data using PHYSICS_INTERFACE_PHYSX.
+[2022.05.15-17.16.50:817][526]LogNavigationDataBuild: Display:    Building navigation data using WITH_PHYSX.
+[2022.05.15-17.16.50:865][526]LogUObjectHash: Compacting FUObjectHashTables data took   4.56ms
+[2022.05.15-17.16.50:872][526]LogLevel: Display: Export Material TexCoord Scales took 0.007 seconds.
+[2022.05.15-17.16.50:879][526]TextureStreamingBuild: Display: Build Texture Streaming took 0.006 seconds.
+[2022.05.15-17.16.50:921][526]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2022.05.15-17.16.50:923][526]LightingResults: New page: Lighting Build - May 15, 2022, 9:16:50 AM
+[2022.05.15-17.16.50:930][526]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2022.05.15-17.16.50:933][526]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2022.05.15-17.16.50:933][526]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2022.05.15-17.16.50:934][526]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2022.05.15-17.16.50:934][526]LogSwarmInterface: [TryOpenConnection] Local Process ID is 3068
+[2022.05.15-17.16.55:514][526]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2022.05.15-17.16.55:514][526]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2022.05.15-17.16.55:515][526]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2022.05.15-17.16.55:515][526]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2022.05.15-17.16.55:515][526]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2022.05.15-17.16.55:659][526]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2022.05.15-17.16.55:659][526]MapCheck: New page: FirstPersonExampleMap - May 15, 2022, 9:16:55 AM
+[2022.05.15-17.16.55:659][526]MapCheck: Warning: retro_fridge_2 Static mesh actor has NULL StaticMesh property 
+[2022.05.15-17.16.55:659][526]MapCheck: Warning: fridge_top_door_5 Static mesh actor has NULL StaticMesh property 
+[2022.05.15-17.16.55:659][526]MapCheck: Warning: fridge_bot_door_11 Static mesh actor has NULL StaticMesh property 
+[2022.05.15-17.16.55:659][526]MapCheck: Warning: painting1_2 Static mesh actor has NULL StaticMesh property 
+[2022.05.15-17.16.55:659][526]MapCheck: Warning: painting_5 Static mesh actor has NULL StaticMesh property 
+[2022.05.15-17.16.55:659][526]MapCheck: Warning: FridgeRetro_BP_2 Static mesh actor has NULL StaticMesh property 
+[2022.05.15-17.16.55:660][526]MapCheck: Map check complete: 0 Error(s), 6 Warning(s), took 0.811ms to complete.
+[2022.05.15-17.16.55:661][526]LogEditorBuildUtils: Build time 0:04
+[2022.05.15-17.16.55:717][526]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer FloorMat in PCD3D_SM5, Default, SM5 (DDC key hash: 2DA61761743DA9DBD42316590835422658CAF94C), compiling. 
+[2022.05.15-17.16.55:722][526]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer FloorMat in PCD3D_SM5, Default, SM5 (DDC key hash: E2482D23C10CFE5CA7264D75DE1549A207AD4BBD), compiling. 
+[2022.05.15-17.16.55:787][527]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer Main_001 in PCD3D_SM5, Default, SM5 (DDC key hash: 47E691F27B73D0EAA788F766CCA1EEFE009226E2), compiling. 
+[2022.05.15-17.16.55:792][527]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer Main_001 in PCD3D_SM5, Default, SM5 (DDC key hash: 35B72FA1F2B4A9E7B0250FBC579DFCFF8A824FCD), compiling. 
+[2022.05.15-17.16.55:889][528]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer off-white in PCD3D_SM5, Default, SM5 (DDC key hash: EE6F555137D89E6A048BEF569C59330CCB4E5409), compiling. 
+[2022.05.15-17.16.55:894][528]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer off-white in PCD3D_SM5, Default, SM5 (DDC key hash: 6ABBB6F775A7CD693705D62D42F21C332069F699), compiling. 
+[2022.05.15-17.16.55:898][528]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer Blue in PCD3D_SM5, Default, SM5 (DDC key hash: 7504C93A3A27B317D3FD041462CAAF2DDFF6C768), compiling. 
+[2022.05.15-17.16.55:902][528]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer Blue in PCD3D_SM5, Default, SM5 (DDC key hash: 92973699DA0B5CBD6306C46EF47982E0DCA90C49), compiling. 
+[2022.05.15-17.16.55:959][529]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer DarkBrown in PCD3D_SM5, Default, SM5 (DDC key hash: 3E75C6789CBB591D77E08506663F70DB96D81220), compiling. 
+[2022.05.15-17.16.55:963][529]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer DarkBrown in PCD3D_SM5, Default, SM5 (DDC key hash: EB3C5A50394AE3A566F5382F8835A7A0579A0307), compiling. 
+[2022.05.15-17.16.55:968][529]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer Green in PCD3D_SM5, Default, SM5 (DDC key hash: 2BCE1A62842DB3295032210BFA32F66B0638DE22), compiling. 
+[2022.05.15-17.16.55:974][529]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer Green in PCD3D_SM5, Default, SM5 (DDC key hash: C7D1A38F1E97E74D3F64E702A550A6BD5A8D1744), compiling. 
+[2022.05.15-17.16.56:028][530]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer Brown in PCD3D_SM5, Default, SM5 (DDC key hash: 0D3BD4DB4E4B60C0BE2DD697FD704213062FD750), compiling. 
+[2022.05.15-17.16.56:032][530]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer Brown in PCD3D_SM5, Default, SM5 (DDC key hash: DCFC5EE2999FA4E9BC57B9BC881741C2C68815FB), compiling. 
+[2022.05.15-17.16.56:472][542]LogUObjectHash: Compacting FUObjectHashTables data took   5.85ms
+[2022.05.15-17.17.20:563][588]LightingResults: Warning: rounded_table Object has overlapping UVs.
+[2022.05.15-17.17.20:563][588]LightingResults: rounded_table Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2022.05.15-17.17.20:969][607]LightingResults: Warning: door Object has overlapping UVs.
+[2022.05.15-17.17.20:969][607]LightingResults: door Lightmap UV are overlapping by 24.2%. Please adjust content - Enable Error Coloring to visualize.
+[2022.05.15-17.17.21:704][641]LightingResults: Warning: plant2 Object has overlapping UVs.
+[2022.05.15-17.17.21:704][641]LightingResults: plant2 Lightmap UV are overlapping by 39.3%. Please adjust content - Enable Error Coloring to visualize.
+[2022.05.15-17.17.52:953][189]Job is a success!
+[2022.05.15-17.17.53:085][190]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.014s
+[2022.05.15-17.17.53:085][190]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2022.05.15-17.17.53:085][190]LogVolumetricLightmapImport:      BrickData (all levels) 0.2Mb
+[2022.05.15-17.17.53:085][190]LogVolumetricLightmapImport:      Bricks at depth
+[2022.05.15-17.17.53:085][190]LogVolumetricLightmapImport:          0: 2.4% covering 100.0% of volume
+[2022.05.15-17.17.53:085][190]LogVolumetricLightmapImport:          1: 9.8% covering 6.2% of volume
+[2022.05.15-17.17.53:085][190]LogVolumetricLightmapImport:          2: 87.8% covering 0.9% of volume
+[2022.05.15-17.17.53:085][190]LogVolumetricLightmapImport:      Bricks in each level
+[2022.05.15-17.17.53:085][190]LogVolumetricLightmapImport:          FirstPersonExampleMap 			 41 bricks 	 100.0% (Persistent Level)
+[2022.05.15-17.17.53:204][190]LightingResults: Warning: PointLight3 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2022.05.15-17.17.53:204][190]LightingResults: Warning: PointLight4 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2022.05.15-17.17.53:204][190]LightingResults: Warning: PointLight6_8 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2022.05.15-17.17.53:204][190]LightingResults: Warning: PointLight7 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2022.05.15-17.17.53:204][190]LightingResults: Warning: PointLight8 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2022.05.15-17.17.53:204][190]LightingResults: Warning: PointLight9_8 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2022.05.15-17.17.53:573][190]LogTexture: Display: Building textures: SkyOcclusion1_1 (OODLE_AutoDXT, 2048X1024)
+[2022.05.15-17.17.53:573][190]LogTextureFormatOodle: Display: non-RDO encode 2048 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.05.15-17.17.53:573][190]LogTextureFormatOodle: Display: non-RDO encode 1024 x 512 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.05.15-17.17.53:573][190]LogTexture: Display: Building textures: HQ_Lightmap1_1 (OODLE_AutoDXT, 2048X2048)
+[2022.05.15-17.17.53:573][190]LogTexture: Display: Building textures: SkyOcclusion1_2 (OODLE_AutoDXT, 64X32)
+[2022.05.15-17.17.53:573][190]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (OODLE_DXT1, 2048X2048)
+[2022.05.15-17.17.53:573][190]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.05.15-17.17.53:573][190]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.05.15-17.17.53:573][190]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.05.15-17.17.53:573][190]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.05.15-17.17.53:573][190]LogTexture: Display: Building textures: HQ_Lightmap1_2 (OODLE_AutoDXT, 64X64)
+[2022.05.15-17.17.53:573][190]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (OODLE_DXT1, 64X64)
+[2022.05.15-17.17.53:767][190]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 32X32)
+[2022.05.15-17.17.53:767][190]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (BGRA8, 1024X256)
+[2022.05.15-17.17.53:767][190]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (BGRA8, 1024X1024)
+[2022.05.15-17.17.53:767][190]LogStaticLightingSystem: FirstPersonExampleMap_BuiltData storing lightmap data for 55 meshes in 4 LightmapResourceClusters (13.8 Meshes per cluster).
+[2022.05.15-17.17.53:813][190]Lightmass on LAPTOP-H77C266C: 56.7 sec total, 146 ms importing, 12 ms setup, 4.40 sec photons, 52.1 sec processing, 0 ms extra exporting [55/55 mappings]. Threads: 9:33 min total, 3:34 min processing.
+[2022.05.15-17.17.53:819][190]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2022.05.15-17.17.53:836][190]LogStaticLightingSystem: Illumination: 1:02 min (381 ms encoding lightmaps, 177 ms encoding shadowmaps)
+[2022.05.15-17.17.53:836][190]LogStaticLightingSystem: Lightmap texture memory:  10.7 MB (10.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2022.05.15-17.17.53:836][190]LogStaticLightingSystem: Shadowmap texture memory: 6.7 MB (6.7 MB streaming, 0.0 MB non-streaming), 3 textures
+[2022.05.15-17.17.53:838][190]DumpUnbuiltLightIteractions
+[2022.05.15-17.17.53:838][190]Lights with unbuilt interactions: 0
+[2022.05.15-17.17.53:838][190]
+[2022.05.15-17.17.53:838][190]Primitives with unbuilt interactions: 0
+[2022.05.15-17.17.53:891][190]LogTexture: Display: Building textures: NewReflectionComponentTexture4E9A31EC459F824B7293D9A5960F381F (BGRA8, 128X128)
+[2022.05.15-17.17.53:946][191]Cmd: MAP CHECK NOTIFYRESULTS
+[2022.05.15-17.17.53:946][191]MapCheck: New page: FirstPersonExampleMap - May 15, 2022, 9:17:53 AM
+[2022.05.15-17.17.53:947][191]MapCheck: Warning: retro_fridge_2 Static mesh actor has NULL StaticMesh property 
+[2022.05.15-17.17.53:947][191]MapCheck: Warning: fridge_top_door_5 Static mesh actor has NULL StaticMesh property 
+[2022.05.15-17.17.53:947][191]MapCheck: Warning: fridge_bot_door_11 Static mesh actor has NULL StaticMesh property 
+[2022.05.15-17.17.53:947][191]MapCheck: Warning: painting1_2 Static mesh actor has NULL StaticMesh property 
+[2022.05.15-17.17.53:947][191]MapCheck: Warning: painting_5 Static mesh actor has NULL StaticMesh property 
+[2022.05.15-17.17.53:947][191]MapCheck: Warning: FridgeRetro_BP_2 Static mesh actor has NULL StaticMesh property 
+[2022.05.15-17.17.53:947][191]MapCheck: Map check complete: 0 Error(s), 6 Warning(s), took 1.02ms to complete.
+[2022.05.15-17.18.00:026][510]LogSlate: Window 'Message Log' being destroyed
+[2022.05.15-17.18.00:031][510]LogSlate: Window 'Message Log' being destroyed
+[2022.05.15-17.18.09:131][ 44]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight9)
+[2022.05.15-17.18.52:179][594]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight6)
+[2022.05.15-17.19.07:098][443]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight10)
+[2022.05.15-17.19.11:847][693]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2022.05.15-17.19.23:911][353]MapCheck: New page: Map Check
+[2022.05.15-17.19.23:931][353]Cmd: MAP REBUILD ALLVISIBLE
+[2022.05.15-17.19.23:932][353]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2022.05.15-17.19.23:934][353]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=false
+[2022.05.15-17.19.23:955][353]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2022.05.15-17.19.23:955][353]LogNavigationDataBuild: Display:    Building navigation data using PHYSICS_INTERFACE_PHYSX.
+[2022.05.15-17.19.23:955][353]LogNavigationDataBuild: Display:    Building navigation data using WITH_PHYSX.
+[2022.05.15-17.19.24:003][353]LogUObjectHash: Compacting FUObjectHashTables data took   4.33ms
+[2022.05.15-17.19.24:011][353]LogLevel: Display: Export Material TexCoord Scales took 0.005 seconds.
+[2022.05.15-17.19.24:016][353]TextureStreamingBuild: Display: Build Texture Streaming took 0.005 seconds.
+[2022.05.15-17.19.24:056][353]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2022.05.15-17.19.24:059][353]LightingResults: New page: Lighting Build - May 15, 2022, 9:19:24 AM
+[2022.05.15-17.19.24:081][353]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2022.05.15-17.19.24:084][353]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2022.05.15-17.19.24:084][353]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2022.05.15-17.19.24:085][353]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2022.05.15-17.19.24:085][353]LogSwarmInterface: [TryOpenConnection] Local Process ID is 3068
+[2022.05.15-17.19.28:638][353]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2022.05.15-17.19.28:638][353]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2022.05.15-17.19.28:638][353]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2022.05.15-17.19.28:638][353]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2022.05.15-17.19.28:638][353]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2022.05.15-17.19.28:761][353]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2022.05.15-17.19.28:761][353]MapCheck: New page: FirstPersonExampleMap - May 15, 2022, 9:19:28 AM
+[2022.05.15-17.19.28:761][353]MapCheck: Error: WorldInfo_0 Maps need lighting rebuilt 
+[2022.05.15-17.19.28:761][353]MapCheck: Warning: retro_fridge_2 Static mesh actor has NULL StaticMesh property 
+[2022.05.15-17.19.28:761][353]MapCheck: Warning: fridge_top_door_5 Static mesh actor has NULL StaticMesh property 
+[2022.05.15-17.19.28:761][353]MapCheck: Warning: fridge_bot_door_11 Static mesh actor has NULL StaticMesh property 
+[2022.05.15-17.19.28:761][353]MapCheck: Warning: painting1_2 Static mesh actor has NULL StaticMesh property 
+[2022.05.15-17.19.28:762][353]MapCheck: Warning: painting_5 Static mesh actor has NULL StaticMesh property 
+[2022.05.15-17.19.28:762][353]MapCheck: Warning: FridgeRetro_BP_2 Static mesh actor has NULL StaticMesh property 
+[2022.05.15-17.19.28:762][353]MapCheck: Map check complete: 1 Error(s), 6 Warning(s), took 0.865ms to complete.
+[2022.05.15-17.19.28:764][353]LogEditorBuildUtils: Build time 0:04
+[2022.05.15-17.19.28:802][353]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.05.15-17.19.28:802][353]LogShaderCompilers: Display: Total job queries 251, among them cache hits 28 (11.16%)
+[2022.05.15-17.19.28:802][353]LogShaderCompilers: Display: Tracking 223 distinct input hashes that result in 121 distinct outputs (54.26%)
+[2022.05.15-17.19.28:802][353]LogShaderCompilers: Display: RAM used: 0.65 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.08%
+[2022.05.15-17.19.28:802][353]LogShaderCompilers: Display: ================================================
+[2022.05.15-17.19.28:975][355]LogUObjectHash: Compacting FUObjectHashTables data took   5.68ms
+[2022.05.15-17.19.54:172][450]LightingResults: Warning: rounded_table Object has overlapping UVs.
+[2022.05.15-17.19.54:172][450]LightingResults: rounded_table Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2022.05.15-17.19.54:541][467]LightingResults: Warning: door Object has overlapping UVs.
+[2022.05.15-17.19.54:541][467]LightingResults: door Lightmap UV are overlapping by 24.2%. Please adjust content - Enable Error Coloring to visualize.
+[2022.05.15-17.19.56:015][533]LightingResults: Warning: plant2 Object has overlapping UVs.
+[2022.05.15-17.19.56:015][533]LightingResults: plant2 Lightmap UV are overlapping by 39.3%. Please adjust content - Enable Error Coloring to visualize.
+[2022.05.15-17.20.23:145][787]Job is a success!
+[2022.05.15-17.20.23:555][788]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.014s
+[2022.05.15-17.20.23:555][788]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2022.05.15-17.20.23:556][788]LogVolumetricLightmapImport:      BrickData (all levels) 0.2Mb
+[2022.05.15-17.20.23:556][788]LogVolumetricLightmapImport:      Bricks at depth
+[2022.05.15-17.20.23:556][788]LogVolumetricLightmapImport:          0: 2.4% covering 100.0% of volume
+[2022.05.15-17.20.23:556][788]LogVolumetricLightmapImport:          1: 9.8% covering 6.2% of volume
+[2022.05.15-17.20.23:556][788]LogVolumetricLightmapImport:          2: 87.8% covering 0.9% of volume
+[2022.05.15-17.20.23:556][788]LogVolumetricLightmapImport:      Bricks in each level
+[2022.05.15-17.20.23:556][788]LogVolumetricLightmapImport:          FirstPersonExampleMap 			 41 bricks 	 100.0% (Persistent Level)
+[2022.05.15-17.20.23:677][788]LightingResults: Warning: PointLight3 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2022.05.15-17.20.23:677][788]LightingResults: Warning: PointLight4 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2022.05.15-17.20.23:677][788]LightingResults: Warning: PointLight6_8 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2022.05.15-17.20.23:677][788]LightingResults: Warning: PointLight7 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2022.05.15-17.20.23:677][788]LightingResults: Warning: PointLight8 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2022.05.15-17.20.23:677][788]LightingResults: Warning: PointLight9_8 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2022.05.15-17.20.24:056][788]LogTexture: Display: Building textures: SkyOcclusion0_1 (OODLE_AutoDXT, 2048X1024)
+[2022.05.15-17.20.24:056][788]LogTextureFormatOodle: Display: non-RDO encode 2048 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.05.15-17.20.24:056][788]LogTextureFormatOodle: Display: non-RDO encode 1024 x 512 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.05.15-17.20.24:057][788]LogTexture: Display: Building textures: HQ_Lightmap0_1 (OODLE_AutoDXT, 2048X2048)
+[2022.05.15-17.20.24:057][788]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.05.15-17.20.24:057][788]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.05.15-17.20.24:057][788]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (OODLE_DXT1, 2048X2048)
+[2022.05.15-17.20.24:057][788]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.05.15-17.20.24:057][788]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.05.15-17.20.24:057][788]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (OODLE_DXT1, 64X64)
+[2022.05.15-17.20.24:057][788]LogTexture: Display: Building textures: HQ_Lightmap0_2 (OODLE_AutoDXT, 64X64)
+[2022.05.15-17.20.24:057][788]LogTexture: Display: Building textures: SkyOcclusion0_2 (OODLE_AutoDXT, 64X32)
+[2022.05.15-17.20.24:235][788]LogTexture: Display: Building textures: ShadowMapTexture2D_8 (G8, 32X32)
+[2022.05.15-17.20.24:235][788]LogTexture: Display: Building textures: ShadowMapTexture2D_7 (BGRA8, 1024X256)
+[2022.05.15-17.20.24:235][788]LogTexture: Display: Building textures: ShadowMapTexture2D_6 (BGRA8, 1024X1024)
+[2022.05.15-17.20.24:235][788]LogStaticLightingSystem: FirstPersonExampleMap_BuiltData storing lightmap data for 55 meshes in 4 LightmapResourceClusters (13.8 Meshes per cluster).
+[2022.05.15-17.20.24:281][788]Lightmass on LAPTOP-H77C266C: 51.8 sec total, 146 ms importing, 13 ms setup, 3.97 sec photons, 47.7 sec processing, 0 ms extra exporting [55/55 mappings]. Threads: 8:44 min total, 3:23 min processing.
+[2022.05.15-17.20.24:288][788]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2022.05.15-17.20.24:301][788]LogStaticLightingSystem: Illumination: 59.8 sec (381 ms encoding lightmaps, 172 ms encoding shadowmaps)
+[2022.05.15-17.20.24:301][788]LogStaticLightingSystem: Lightmap texture memory:  10.7 MB (10.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2022.05.15-17.20.24:301][788]LogStaticLightingSystem: Shadowmap texture memory: 6.7 MB (6.7 MB streaming, 0.0 MB non-streaming), 3 textures
+[2022.05.15-17.20.24:303][788]DumpUnbuiltLightIteractions
+[2022.05.15-17.20.24:303][788]Lights with unbuilt interactions: 0
+[2022.05.15-17.20.24:303][788]
+[2022.05.15-17.20.24:303][788]Primitives with unbuilt interactions: 0
+[2022.05.15-17.20.24:363][788]LogTexture: Display: Building textures: NewReflectionComponentTexture4E9A31EC459F824B7293D9A5960F381F (BGRA8, 128X128)
+[2022.05.15-17.20.24:392][789]Cmd: MAP CHECK NOTIFYRESULTS
+[2022.05.15-17.20.24:392][789]MapCheck: New page: FirstPersonExampleMap - May 15, 2022, 9:20:24 AM
+[2022.05.15-17.20.24:392][789]MapCheck: Warning: retro_fridge_2 Static mesh actor has NULL StaticMesh property 
+[2022.05.15-17.20.24:392][789]MapCheck: Warning: fridge_top_door_5 Static mesh actor has NULL StaticMesh property 
+[2022.05.15-17.20.24:392][789]MapCheck: Warning: fridge_bot_door_11 Static mesh actor has NULL StaticMesh property 
+[2022.05.15-17.20.24:393][789]MapCheck: Warning: painting1_2 Static mesh actor has NULL StaticMesh property 
+[2022.05.15-17.20.24:393][789]MapCheck: Warning: painting_5 Static mesh actor has NULL StaticMesh property 
+[2022.05.15-17.20.24:393][789]MapCheck: Warning: FridgeRetro_BP_2 Static mesh actor has NULL StaticMesh property 
+[2022.05.15-17.20.24:393][789]MapCheck: Map check complete: 0 Error(s), 6 Warning(s), took 0.872ms to complete.
+[2022.05.15-17.20.38:459][989]LogSlate: Window 'Message Log' being destroyed
+[2022.05.15-17.20.38:465][989]LogSlate: Window 'Message Log' being destroyed
+[2022.05.15-17.20.45:598][391]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight10)
+[2022.05.15-17.21.08:400][739]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2022.05.15-17.21.18:665][309]LogUObjectHash: Compacting FUObjectHashTables data took   4.63ms
+[2022.05.15-17.21.18:706][309]LogSavePackage: Moving '../../../../../Users/nktri/Documents/GitHub/Toronto-Game-Jam/TorontoGameJam/Saved/FirstPersonExampleMapD6CA9FCE469027F7039048B18C8AEC81.tmp' to '../../../../../Users/nktri/Documents/GitHub/Toronto-Game-Jam/TorontoGameJam/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2022.05.15-17.21.18:837][309]LogSavePackage: Moving '../../../../../Users/nktri/Documents/GitHub/Toronto-Game-Jam/TorontoGameJam/Saved/FirstPersonExampleMap_BuiltDataF1D49ECE4B10436E70CED18024F70C31.tmp' to '../../../../../Users/nktri/Documents/GitHub/Toronto-Game-Jam/TorontoGameJam/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2022.05.15-17.21.18:858][309]AssetCheck: New page: Asset Save: multiple assets
+[2022.05.15-17.21.18:859][309]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData
+[2022.05.15-17.21.18:859][309]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+[2022.05.15-17.21.27:548][796]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube12)
+[2022.05.15-17.24.02:812][462]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.05.15-17.28.24:995][  4]LogUObjectHash: Compacting FUObjectHashTables data took   4.65ms
+[2022.05.15-17.28.27:090][  4]LogSlate: Window 'Save Content' being destroyed
+[2022.05.15-17.28.27:150][  4]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Material/Blue" FILE="../../../../../Users/nktri/Documents/GitHub/Toronto-Game-Jam/TorontoGameJam/Content/Assets/Material/Blue.uasset" SILENT=true
+[2022.05.15-17.28.27:155][  4]LogSavePackage: Moving '../../../../../Users/nktri/Documents/GitHub/Toronto-Game-Jam/TorontoGameJam/Saved/BlueD4A988794761CA0A854E0C9268C5F7AF.tmp' to '../../../../../Users/nktri/Documents/GitHub/Toronto-Game-Jam/TorontoGameJam/Content/Assets/Material/Blue.uasset'
+[2022.05.15-17.28.27:166][  4]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Material/Brown" FILE="../../../../../Users/nktri/Documents/GitHub/Toronto-Game-Jam/TorontoGameJam/Content/Assets/Material/Brown.uasset" SILENT=true
+[2022.05.15-17.28.27:172][  4]LogSavePackage: Moving '../../../../../Users/nktri/Documents/GitHub/Toronto-Game-Jam/TorontoGameJam/Saved/Brown4C2A6CEF43B5FE84C1C093826495AEAA.tmp' to '../../../../../Users/nktri/Documents/GitHub/Toronto-Game-Jam/TorontoGameJam/Content/Assets/Material/Brown.uasset'
+[2022.05.15-17.28.27:194][  4]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Material/DarkBrown" FILE="../../../../../Users/nktri/Documents/GitHub/Toronto-Game-Jam/TorontoGameJam/Content/Assets/Material/DarkBrown.uasset" SILENT=true
+[2022.05.15-17.28.27:200][  4]LogSavePackage: Moving '../../../../../Users/nktri/Documents/GitHub/Toronto-Game-Jam/TorontoGameJam/Saved/DarkBrown4775790742F6A3C52910A39ED624FD9C.tmp' to '../../../../../Users/nktri/Documents/GitHub/Toronto-Game-Jam/TorontoGameJam/Content/Assets/Material/DarkBrown.uasset'
+[2022.05.15-17.28.27:298][  4]LogSavePackage: Moving '../../../../../Users/nktri/Documents/GitHub/Toronto-Game-Jam/TorontoGameJam/Saved/FirstPersonCharacter6C79337F4E27C5AD97E52ABF73B7DB83.tmp' to '../../../../../Users/nktri/Documents/GitHub/Toronto-Game-Jam/TorontoGameJam/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2022.05.15-17.28.27:311][  4]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Model/Floor/FloorMat" FILE="../../../../../Users/nktri/Documents/GitHub/Toronto-Game-Jam/TorontoGameJam/Content/Assets/Model/Floor/FloorMat.uasset" SILENT=true
+[2022.05.15-17.28.27:317][  4]LogSavePackage: Moving '../../../../../Users/nktri/Documents/GitHub/Toronto-Game-Jam/TorontoGameJam/Saved/FloorMat73750A2C42561471F5F18C93A53DC6BB.tmp' to '../../../../../Users/nktri/Documents/GitHub/Toronto-Game-Jam/TorontoGameJam/Content/Assets/Model/Floor/FloorMat.uasset'
+[2022.05.15-17.28.27:332][  4]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Material/Green" FILE="../../../../../Users/nktri/Documents/GitHub/Toronto-Game-Jam/TorontoGameJam/Content/Assets/Material/Green.uasset" SILENT=true
+[2022.05.15-17.28.27:347][  4]LogSavePackage: Moving '../../../../../Users/nktri/Documents/GitHub/Toronto-Game-Jam/TorontoGameJam/Saved/GreenAE018EB648B39AF5B83041A22C1790BE.tmp' to '../../../../../Users/nktri/Documents/GitHub/Toronto-Game-Jam/TorontoGameJam/Content/Assets/Material/Green.uasset'
+[2022.05.15-17.28.27:362][  4]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Model/Stove/Main_001" FILE="../../../../../Users/nktri/Documents/GitHub/Toronto-Game-Jam/TorontoGameJam/Content/Assets/Model/Stove/Main_001.uasset" SILENT=true
+[2022.05.15-17.28.27:370][  4]LogSavePackage: Moving '../../../../../Users/nktri/Documents/GitHub/Toronto-Game-Jam/TorontoGameJam/Saved/Main_00144D8FD244412CA9241A991A0D8F9797D.tmp' to '../../../../../Users/nktri/Documents/GitHub/Toronto-Game-Jam/TorontoGameJam/Content/Assets/Model/Stove/Main_001.uasset'
+[2022.05.15-17.28.27:385][  4]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Material/off-white" FILE="../../../../../Users/nktri/Documents/GitHub/Toronto-Game-Jam/TorontoGameJam/Content/Assets/Material/off-white.uasset" SILENT=true
+[2022.05.15-17.28.27:390][  4]LogSavePackage: Moving '../../../../../Users/nktri/Documents/GitHub/Toronto-Game-Jam/TorontoGameJam/Saved/off-whiteB11C8A3B4A513BEFBA11919E2EBAFB7A.tmp' to '../../../../../Users/nktri/Documents/GitHub/Toronto-Game-Jam/TorontoGameJam/Content/Assets/Material/off-white.uasset'
+[2022.05.15-17.28.27:391][  4]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/main_menu/Start_Screen" FILE="../../../../../Users/nktri/Documents/GitHub/Toronto-Game-Jam/TorontoGameJam/Content/main_menu/Start_Screen.uasset" SILENT=true
+[2022.05.15-17.28.27:408][  4]LogSavePackage: Moving '../../../../../Users/nktri/Documents/GitHub/Toronto-Game-Jam/TorontoGameJam/Saved/Start_ScreenCD4D1B8C47E892DF400A2696D1DC696D.tmp' to '../../../../../Users/nktri/Documents/GitHub/Toronto-Game-Jam/TorontoGameJam/Content/main_menu/Start_Screen.uasset'
+[2022.05.15-17.28.27:430][  4]AssetCheck: New page: Asset Save: multiple assets
+[2022.05.15-17.28.27:430][  4]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2022.05.15-17.28.27:431][  4]LogContentValidation: Display: Validating Material /Game/Assets/Material/DarkBrown.DarkBrown
+[2022.05.15-17.28.27:431][  4]LogContentValidation: Display: Validating Material /Game/Assets/Model/Stove/Main_001.Main_001
+[2022.05.15-17.28.27:431][  4]LogContentValidation: Display: Validating Material /Game/Assets/Material/Brown.Brown
+[2022.05.15-17.28.27:431][  4]LogContentValidation: Display: Validating Material /Game/Assets/Material/Green.Green
+[2022.05.15-17.28.27:431][  4]LogContentValidation: Display: Validating Material /Game/Assets/Material/off-white.off-white
+[2022.05.15-17.28.27:431][  4]LogContentValidation: Display: Validating Material /Game/Assets/Model/Floor/FloorMat.FloorMat
+[2022.05.15-17.28.27:431][  4]LogContentValidation: Display: Validating Material /Game/Assets/Material/Blue.Blue
+[2022.05.15-17.28.27:431][  4]LogContentValidation: Display: Validating WidgetBlueprint /Game/main_menu/Start_Screen.Start_Screen
+[2022.05.15-17.28.32:306][288]MapCheck: New page: Map Check
+[2022.05.15-17.28.32:325][288]Cmd: MAP REBUILD ALLVISIBLE
+[2022.05.15-17.28.32:325][288]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2022.05.15-17.28.32:327][288]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=false
+[2022.05.15-17.28.32:350][288]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2022.05.15-17.28.32:350][288]LogNavigationDataBuild: Display:    Building navigation data using PHYSICS_INTERFACE_PHYSX.
+[2022.05.15-17.28.32:350][288]LogNavigationDataBuild: Display:    Building navigation data using WITH_PHYSX.
+[2022.05.15-17.28.32:399][288]LogUObjectHash: Compacting FUObjectHashTables data took   3.95ms
+[2022.05.15-17.28.32:406][288]LogLevel: Display: Export Material TexCoord Scales took 0.006 seconds.
+[2022.05.15-17.28.32:412][288]TextureStreamingBuild: Display: Build Texture Streaming took 0.006 seconds.
+[2022.05.15-17.28.32:453][288]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2022.05.15-17.28.32:455][288]LightingResults: New page: Lighting Build - May 15, 2022, 9:28:32 AM
+[2022.05.15-17.28.32:481][288]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2022.05.15-17.28.32:487][288]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2022.05.15-17.28.32:487][288]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2022.05.15-17.28.32:488][288]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2022.05.15-17.28.32:488][288]LogSwarmInterface: [TryOpenConnection] Local Process ID is 3068
+[2022.05.15-17.28.37:038][288]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2022.05.15-17.28.37:039][288]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2022.05.15-17.28.37:039][288]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2022.05.15-17.28.37:039][288]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2022.05.15-17.28.37:039][288]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2022.05.15-17.28.37:270][288]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2022.05.15-17.28.37:271][288]MapCheck: New page: FirstPersonExampleMap - May 15, 2022, 9:28:37 AM
+[2022.05.15-17.28.37:287][288]MapCheck: Warning: retro_fridge_2 Static mesh actor has NULL StaticMesh property 
+[2022.05.15-17.28.37:287][288]MapCheck: Warning: fridge_top_door_5 Static mesh actor has NULL StaticMesh property 
+[2022.05.15-17.28.37:287][288]MapCheck: Warning: fridge_bot_door_11 Static mesh actor has NULL StaticMesh property 
+[2022.05.15-17.28.37:287][288]MapCheck: Warning: painting1_2 Static mesh actor has NULL StaticMesh property 
+[2022.05.15-17.28.37:287][288]MapCheck: Warning: painting_5 Static mesh actor has NULL StaticMesh property 
+[2022.05.15-17.28.37:287][288]MapCheck: Warning: FridgeRetro_BP_2 Static mesh actor has NULL StaticMesh property 
+[2022.05.15-17.28.37:287][288]MapCheck: Map check complete: 0 Error(s), 6 Warning(s), took 16.973ms to complete.
+[2022.05.15-17.28.37:289][288]LogEditorBuildUtils: Build time 0:04
+[2022.05.15-17.28.37:333][288]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.05.15-17.28.37:333][288]LogShaderCompilers: Display: Total job queries 251, among them cache hits 28 (11.16%)
+[2022.05.15-17.28.37:333][288]LogShaderCompilers: Display: Tracking 223 distinct input hashes that result in 121 distinct outputs (54.26%)
+[2022.05.15-17.28.37:333][288]LogShaderCompilers: Display: RAM used: 0.65 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.08%
+[2022.05.15-17.28.37:333][288]LogShaderCompilers: Display: ================================================
+[2022.05.15-17.28.37:468][290]LogUObjectHash: Compacting FUObjectHashTables data took   5.72ms
+[2022.05.15-17.29.01:092][399]LightingResults: Warning: rounded_table Object has overlapping UVs.
+[2022.05.15-17.29.01:093][399]LightingResults: rounded_table Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2022.05.15-17.29.01:093][399]LightingResults: Warning: door Object has overlapping UVs.
+[2022.05.15-17.29.01:093][399]LightingResults: door Lightmap UV are overlapping by 24.2%. Please adjust content - Enable Error Coloring to visualize.
+[2022.05.15-17.29.02:091][402]LightingResults: Warning: plant2 Object has overlapping UVs.
+[2022.05.15-17.29.02:094][402]LightingResults: plant2 Lightmap UV are overlapping by 39.3%. Please adjust content - Enable Error Coloring to visualize.
+[2022.05.15-17.29.23:592][466]Job is a success!
+[2022.05.15-17.29.24:004][467]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.014s
+[2022.05.15-17.29.24:004][467]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2022.05.15-17.29.24:004][467]LogVolumetricLightmapImport:      BrickData (all levels) 0.2Mb
+[2022.05.15-17.29.24:004][467]LogVolumetricLightmapImport:      Bricks at depth
+[2022.05.15-17.29.24:004][467]LogVolumetricLightmapImport:          0: 2.4% covering 100.0% of volume
+[2022.05.15-17.29.24:005][467]LogVolumetricLightmapImport:          1: 9.8% covering 6.2% of volume
+[2022.05.15-17.29.24:005][467]LogVolumetricLightmapImport:          2: 87.8% covering 0.9% of volume
+[2022.05.15-17.29.24:005][467]LogVolumetricLightmapImport:      Bricks in each level
+[2022.05.15-17.29.24:005][467]LogVolumetricLightmapImport:          FirstPersonExampleMap 			 41 bricks 	 100.0% (Persistent Level)
+[2022.05.15-17.29.24:135][467]LightingResults: Warning: PointLight3 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2022.05.15-17.29.24:135][467]LightingResults: Warning: PointLight4 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2022.05.15-17.29.24:135][467]LightingResults: Warning: PointLight6_8 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2022.05.15-17.29.24:135][467]LightingResults: Warning: PointLight7 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2022.05.15-17.29.24:135][467]LightingResults: Warning: PointLight8 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2022.05.15-17.29.24:135][467]LightingResults: Warning: PointLight9_8 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2022.05.15-17.29.24:516][467]LogTexture: Display: Building textures: SkyOcclusion1_1 (OODLE_AutoDXT, 2048X1024)
+[2022.05.15-17.29.24:516][467]LogTextureFormatOodle: Display: non-RDO encode 1024 x 512 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.05.15-17.29.24:516][467]LogTextureFormatOodle: Display: non-RDO encode 2048 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.05.15-17.29.24:516][467]LogTexture: Display: Building textures: HQ_Lightmap1_1 (OODLE_AutoDXT, 2048X2048)
+[2022.05.15-17.29.24:517][467]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.05.15-17.29.24:517][467]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.05.15-17.29.24:517][467]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (OODLE_DXT1, 2048X2048)
+[2022.05.15-17.29.24:517][467]LogTexture: Display: Building textures: SkyOcclusion1_2 (OODLE_AutoDXT, 64X32)
+[2022.05.15-17.29.24:517][467]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.05.15-17.29.24:517][467]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.05.15-17.29.24:517][467]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (OODLE_DXT1, 64X64)
+[2022.05.15-17.29.24:517][467]LogTexture: Display: Building textures: HQ_Lightmap1_2 (OODLE_AutoDXT, 64X64)
+[2022.05.15-17.29.24:732][467]LogTexture: Display: Building textures: ShadowMapTexture2D_11 (G8, 32X32)
+[2022.05.15-17.29.24:732][467]LogTexture: Display: Building textures: ShadowMapTexture2D_10 (BGRA8, 1024X256)
+[2022.05.15-17.29.24:732][467]LogTexture: Display: Building textures: ShadowMapTexture2D_9 (BGRA8, 1024X1024)
+[2022.05.15-17.29.24:740][467]LogStaticLightingSystem: FirstPersonExampleMap_BuiltData storing lightmap data for 55 meshes in 4 LightmapResourceClusters (13.8 Meshes per cluster).
+[2022.05.15-17.29.24:801][467]Lightmass on LAPTOP-H77C266C: 44.1 sec total, 149 ms importing, 18 ms setup, 4.62 sec photons, 39.3 sec processing, 0 ms extra exporting [55/55 mappings]. Threads: 7:12 min total, 2:52 min processing.
+[2022.05.15-17.29.24:809][467]LogUObjectHash: Compacting FUObjectHashTables data took   4.14ms
+[2022.05.15-17.29.24:829][467]LogStaticLightingSystem: Illumination: 52.0 sec (383 ms encoding lightmaps, 217 ms encoding shadowmaps)
+[2022.05.15-17.29.24:829][467]LogStaticLightingSystem: Lightmap texture memory:  10.7 MB (10.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2022.05.15-17.29.24:829][467]LogStaticLightingSystem: Shadowmap texture memory: 6.7 MB (6.7 MB streaming, 0.0 MB non-streaming), 3 textures
+[2022.05.15-17.29.24:830][467]DumpUnbuiltLightIteractions
+[2022.05.15-17.29.24:830][467]Lights with unbuilt interactions: 0
+[2022.05.15-17.29.24:830][467]
+[2022.05.15-17.29.24:830][467]Primitives with unbuilt interactions: 0
+[2022.05.15-17.29.24:942][467]LogTexture: Display: Building textures: NewReflectionComponentTexture4E9A31EC459F824B7293D9A5960F381F (BGRA8, 128X128)
+[2022.05.15-17.29.24:978][468]Cmd: MAP CHECK NOTIFYRESULTS
+[2022.05.15-17.29.24:978][468]MapCheck: New page: FirstPersonExampleMap - May 15, 2022, 9:29:24 AM
+[2022.05.15-17.29.24:979][468]MapCheck: Warning: retro_fridge_2 Static mesh actor has NULL StaticMesh property 
+[2022.05.15-17.29.24:979][468]MapCheck: Warning: fridge_top_door_5 Static mesh actor has NULL StaticMesh property 
+[2022.05.15-17.29.24:979][468]MapCheck: Warning: fridge_bot_door_11 Static mesh actor has NULL StaticMesh property 
+[2022.05.15-17.29.24:979][468]MapCheck: Warning: painting1_2 Static mesh actor has NULL StaticMesh property 
+[2022.05.15-17.29.24:979][468]MapCheck: Warning: painting_5 Static mesh actor has NULL StaticMesh property 
+[2022.05.15-17.29.24:979][468]MapCheck: Warning: FridgeRetro_BP_2 Static mesh actor has NULL StaticMesh property 
+[2022.05.15-17.29.24:979][468]MapCheck: Map check complete: 0 Error(s), 6 Warning(s), took 0.964ms to complete.
+[2022.05.15-17.29.29:324][572]LogSlate: Window 'Message Log' being destroyed
+[2022.05.15-17.29.29:353][572]LogSlate: Window 'Message Log' being destroyed
+[2022.05.15-17.29.58:650][269]LogUObjectHash: Compacting FUObjectHashTables data took   4.18ms
+[2022.05.15-17.29.58:751][269]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2022.05.15-17.29.58:795][269]LogSavePackage: Moving '../../../../../Users/nktri/Documents/GitHub/Toronto-Game-Jam/TorontoGameJam/Saved/FirstPersonExampleMap520311BA4EA9E9A68F7F71B6C9BC1C3A.tmp' to '../../../../../Users/nktri/Documents/GitHub/Toronto-Game-Jam/TorontoGameJam/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2022.05.15-17.29.58:801][269]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.106
+[2022.05.15-17.29.58:939][269]LogSavePackage: Moving '../../../../../Users/nktri/Documents/GitHub/Toronto-Game-Jam/TorontoGameJam/Saved/FirstPersonExampleMap_BuiltData7B3079614BBA9376F4A38B97E8C45D1D.tmp' to '../../../../../Users/nktri/Documents/GitHub/Toronto-Game-Jam/TorontoGameJam/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2022.05.15-17.30.26:432][269]LogMainFrame: Project does not require temp target
+[2022.05.15-17.30.26:435][269]LogLauncherProfile: Found promoted target with matching version at ../../../Engine/Binaries/Win64/UE4Game.target
+[2022.05.15-17.30.26:474][269]AssetCheck: New page: Asset Save: multiple assets
+[2022.05.15-17.30.26:475][269]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData
+[2022.05.15-17.30.26:475][269]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+[2022.05.15-17.30.26:782][269]UATHelper: Packaging (Windows (64-bit)): Running AutomationTool...
+[2022.05.15-17.30.26:782][269]UATHelper: Packaging (Windows (64-bit)): Parsing command line: -ScriptsForProject=C:/Users/nktri/Documents/GitHub/Toronto-Game-Jam/TorontoGameJam/TorontoGameJam.uproject BuildCookRun -nocompileeditor -installed -nop4 -project=C:/Users/nktri/Documents/GitHub/Toronto-Game-Jam/TorontoGameJam/TorontoGameJam.uproject -cook -stage -archive -archivedirectory=C:/Users/nktri/Documents/GitHub/Toronto-Game-Jam -package -ue4exe="C:\Program Files\UE_4.27\Engine\Binaries\Win64\UE4Editor-Cmd.exe" -compressed -ddc=InstalledDerivedDataBackendGraph -pak -prereqs -nodebuginfo -targetplatform=Win64 -clientconfig=Development -utf8output
+[2022.05.15-17.30.27:512][310]UATHelper: Packaging (Windows (64-bit)): Setting up ProjectParams for C:\Users\nktri\Documents\GitHub\Toronto-Game-Jam\TorontoGameJam\TorontoGameJam.uproject
+[2022.05.15-17.30.27:943][334]UATHelper: Packaging (Windows (64-bit)): ********** COOK COMMAND STARTED **********
+[2022.05.15-17.30.27:944][334]UATHelper: Packaging (Windows (64-bit)): Running UE4Editor Cook for project C:\Users\nktri\Documents\GitHub\Toronto-Game-Jam\TorontoGameJam\TorontoGameJam.uproject
+[2022.05.15-17.30.27:947][334]UATHelper: Packaging (Windows (64-bit)): Commandlet log file is C:\Program Files\UE_4.27\Engine\Programs\AutomationTool\Saved\Cook-2022.05.15-13.30.27.txt
+[2022.05.15-17.30.27:948][334]UATHelper: Packaging (Windows (64-bit)): Running: C:\Program Files\UE_4.27\Engine\Binaries\Win64\UE4Editor-Cmd.exe C:\Users\nktri\Documents\GitHub\Toronto-Game-Jam\TorontoGameJam\TorontoGameJam.uproject -run=Cook  -TargetPlatform=WindowsNoEditor -fileopenlog -ddc=InstalledDerivedDataBackendGraph -unversioned -abslog="C:\Program Files\UE_4.27\Engine\Programs\AutomationTool\Saved\Cook-2022.05.15-13.30.27.txt" -stdout -CrashForUAT -unattended -NoLogTimes  -UTF8Output
+[2022.05.15-17.30.28:860][387]UATHelper: Packaging (Windows (64-bit)):   LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+[2022.05.15-17.30.28:860][387]UATHelper: Packaging (Windows (64-bit)):   LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+[2022.05.15-17.30.28:860][387]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: Running engine for game: TorontoGameJam
+[2022.05.15-17.30.29:810][438]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: Loading text-based GConfig....
+[2022.05.15-17.30.30:615][483]UATHelper: Packaging (Windows (64-bit)):   LogHAL: Display: Platform has ~ 16 GB [17010855936 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2022.05.15-17.30.31:081][511]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2022.05.15-17.30.31:115][513]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2022.05.15-17.30.31:115][513]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2022.05.15-17.30.31:115][513]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2022.05.15-17.30.31:115][513]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2022.05.15-17.30.31:115][513]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2022.05.15-17.30.31:115][513]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2022.05.15-17.30.31:115][513]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2022.05.15-17.30.31:115][513]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2022.05.15-17.30.31:115][513]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2022.05.15-17.30.31:115][513]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2022.05.15-17.30.31:134][514]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2022.05.15-17.30.31:134][514]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2022.05.15-17.30.31:149][515]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2022.05.15-17.30.31:149][515]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2022.05.15-17.30.31:165][516]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2022.05.15-17.30.31:165][516]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2022.05.15-17.30.31:182][517]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2022.05.15-17.30.31:182][517]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2022.05.15-17.30.31:198][518]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2022.05.15-17.30.31:215][519]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2022.05.15-17.30.31:215][519]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2022.05.15-17.30.31:232][520]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacNoEditor'
+[2022.05.15-17.30.31:232][520]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2022.05.15-17.30.31:248][521]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2022.05.15-17.30.31:248][521]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2022.05.15-17.30.31:266][522]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2022.05.15-17.30.31:266][522]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2022.05.15-17.30.31:266][522]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2022.05.15-17.30.31:281][523]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2022.05.15-17.30.31:281][523]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2022.05.15-17.30.31:281][523]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2022.05.15-17.30.31:281][523]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Building Assets For WindowsNoEditor
+[2022.05.15-17.30.31:300][524]UATHelper: Packaging (Windows (64-bit)):   LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2022.05.15-17.30.31:348][527]UATHelper: Packaging (Windows (64-bit)):   LogTextureFormatOodle: Display: Oodle Texture 2.9.0 init RDO Off
+[2022.05.15-17.30.32:001][566]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Using Local Shader Compiler.
+[2022.05.15-17.30.32:709][604]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2022.05.15-17.30.32:788][608]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/nktri/AppData/Local/UnrealEngine/4.27/DerivedDataCache/Boot.ddc
+[2022.05.15-17.30.32:802][608]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2022.05.15-17.30.32:814][608]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Performance to C:/Users/nktri/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.05ms. RandomReadSpeed=352.31MBs, RandomWriteSpeed=114.50MBs. Assigned SpeedClass 'Local'
+[2022.05.15-17.30.34:959][732]UATHelper: Packaging (Windows (64-bit)):   LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.05.15-17.30.34:959][732]UATHelper: Packaging (Windows (64-bit)):   LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.05.15-17.30.35:663][774]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: CookSettings for Memory: MemoryMaxUsedVirtual 0MiB, MemoryMaxUsedPhysical 16384MiB, MemoryMinFreeVirtual 0MiB, MemoryMinFreePhysical 1024MiB
+[2022.05.15-17.30.35:663][774]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Mobile HDR setting 1
+[2022.05.15-17.30.35:663][774]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Creating asset registry
+[2022.05.15-17.30.36:096][800]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Discovering localized assets for cultures: en
+[2022.05.15-17.30.36:096][800]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Unable to read previous cook inisettings for platform WindowsNoEditor invalidating cook
+[2022.05.15-17.30.36:096][800]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Clearing all cooked content for platform WindowsNoEditor
+[2022.05.15-17.30.36:111][801]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Sandbox cleanup took 0.012 seconds for platforms WindowsNoEditor
+[2022.05.15-17.30.37:131][862]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display:
+[2022.05.15-17.30.37:131][862]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Shader Library 'Global' (PCD3D_SM5) Stats:
+[2022.05.15-17.30.37:131][862]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: =================
+[2022.05.15-17.30.37:131][862]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Assets: 1, Unique Shadermaps: 191 (19100.00%)
+[2022.05.15-17.30.37:131][862]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Total Shaders: 1962, Unique Shaders: 1951 (99.44%)
+[2022.05.15-17.30.37:131][862]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Total Shader Size: 5.10mb, Unique Shaders Size: 5.09mb (99.93%)
+[2022.05.15-17.30.37:131][862]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: === Extended info:
+[2022.05.15-17.30.37:131][862]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Minimum number of shaders in shadermap: 1
+[2022.05.15-17.30.37:131][862]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Median number of shaders in shadermap: 3
+[2022.05.15-17.30.37:131][862]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Maximum number of shaders in shadermap: 264
+[2022.05.15-17.30.37:131][862]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Number of shadermaps referencing top 10 most shared shaders:
+[2022.05.15-17.30.37:131][862]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display:     3, 3, 2, 2, 2, 2, 2, 2, 2, 1
+[2022.05.15-17.30.37:145][863]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Textual dump saved to '../../../../../Users/nktri/Documents/GitHub/Toronto-Game-Jam/TorontoGameJam/Saved/Shaders/PCD3D_SM5/ShaderDebug-Global-PCD3D_SM5/Dump.txt'
+[2022.05.15-17.30.37:145][863]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: =================
+[2022.05.15-17.30.37:146][863]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 0 Packages Remain 48 Total 48
+[2022.05.15-17.30.37:146][863]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cook Diagnostics: OpenFileHandles=217, VirtualMemory=625MiB
+[2022.05.15-17.30.38:511][934]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 245 Packages Remain 143 Total 388
+[2022.05.15-17.30.38:526][935]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shadermap for Box_4 in PCD3D_SM5, Default, SM5 (DDC key hash: AA2AA1ED88C0719FAF7474DDF8CCE4667B1896F5), compiling.
+[2022.05.15-17.30.38:569][937]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Submitted 12 shader compile jobs with 'Low' priority
+[2022.05.15-17.30.38:583][938]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Started 12 'Local' shader compile jobs with 'Low' priority
+[2022.05.15-17.30.38:583][938]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shadermap for DarkBrown in PCD3D_SM5, Default, SM5 (DDC key hash: 8419491BC4C668C5D1B69EFD1617D6B1CACEAA8A), compiling.
+[2022.05.15-17.30.38:616][940]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Submitted 21 shader compile jobs with 'Low' priority
+[2022.05.15-17.30.38:632][941]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shadermap for Green in PCD3D_SM5, Default, SM5 (DDC key hash: 6DC86F3D88446AB5956843A95F265A50386E0C2D), compiling.
+[2022.05.15-17.30.38:649][942]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Started 6 'Local' shader compile jobs with 'Low' priority
+[2022.05.15-17.30.38:649][942]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Submitted 21 shader compile jobs with 'Low' priority
+[2022.05.15-17.30.38:649][942]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shadermap for Brown in PCD3D_SM5, Default, SM5 (DDC key hash: FDB03491AB9653430BA5C1B8013E7D21C6275BBF), compiling.
+[2022.05.15-17.30.38:682][944]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Submitted 21 shader compile jobs with 'Low' priority
+[2022.05.15-17.30.38:682][944]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shadermap for Fridge_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: F1D4E77674478A441F5F0AE132CF5AD452CF4CBD), compiling.
+[2022.05.15-17.30.38:717][946]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Submitted 21 shader compile jobs with 'Low' priority
+[2022.05.15-17.30.38:792][950]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shadermap for Main_001 in PCD3D_SM5, Default, SM5 (DDC key hash: D79FC5067E49C01F0FF69F7DB562E04D00B21688), compiling.
+[2022.05.15-17.30.38:812][951]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Submitted 21 shader compile jobs with 'Low' priority
+[2022.05.15-17.30.38:837][952]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shadermap for off-white in PCD3D_SM5, Default, SM5 (DDC key hash: C49FD7E99087637D67A8A2747E5D2E67B8B6D98C), compiling.
+[2022.05.15-17.30.38:868][954]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Submitted 21 shader compile jobs with 'Low' priority
+[2022.05.15-17.30.38:905][956]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shadermap for laptop1 in PCD3D_SM5, Default, SM5 (DDC key hash: 14FB219C120F5955066FEECB7A82515CB568911C), compiling.
+[2022.05.15-17.30.38:921][957]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Submitted 12 shader compile jobs with 'Low' priority
+[2022.05.15-17.30.38:925][957]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shadermap for grocery_bag1 in PCD3D_SM5, Default, SM5 (DDC key hash: 5E98B2BFA35EC178FC476B00743C855DFE233F1C), compiling.
+[2022.05.15-17.30.38:944][958]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Submitted 12 shader compile jobs with 'Low' priority
+[2022.05.15-17.30.38:986][960]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shadermap for FloorMat in PCD3D_SM5, Default, SM5 (DDC key hash: 8E3EA97A51791CF13CEBE22A48EFB56E61DF0027), compiling.
+[2022.05.15-17.30.39:011][961]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Submitted 21 shader compile jobs with 'Low' priority
+[2022.05.15-17.30.39:045][963]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shadermap for uku in PCD3D_SM5, Default, SM5 (DDC key hash: F29C03D2FDCC726436FEBAB3FE39A4A40FA6FA1F), compiling.
+[2022.05.15-17.30.39:050][963]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Submitted 12 shader compile jobs with 'Low' priority
+[2022.05.15-17.30.39:251][968]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shadermap for smartphone_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: CC0DDBDB1A5D4AAC54080A79011566C98F181768), compiling.
+[2022.05.15-17.30.39:251][968]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Submitted 12 shader compile jobs with 'Low' priority
+[2022.05.15-17.30.39:251][968]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shadermap for Blue in PCD3D_SM5, Default, SM5 (DDC key hash: 833BB9A7E5DFE31A4550E4B9FA462C4AE465BCF7), compiling.
+[2022.05.15-17.30.39:279][969]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Submitted 21 shader compile jobs with 'Low' priority
+[2022.05.15-17.30.40:228][999]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 378 Packages Remain 13 Total 391
+[2022.05.15-17.30.42:660][ 58]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.05.15-17.30.42:660][ 58]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.05.15-17.30.42:660][ 58]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.05.15-17.30.42:660][ 58]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.05.15-17.30.42:660][ 58]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.05.15-17.30.42:660][ 58]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.05.15-17.30.42:660][ 58]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.05.15-17.30.42:660][ 58]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 379 Packages Remain 12 Total 391
+[2022.05.15-17.30.48:248][157]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.05.15-17.30.48:248][157]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 379 Packages Remain 12 Total 391
+[2022.05.15-17.30.53:168][282]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.05.15-17.30.53:168][282]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.05.15-17.30.53:168][282]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.05.15-17.30.53:168][282]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 380 Packages Remain 11 Total 391
+[2022.05.15-17.30.53:168][282]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.05.15-17.30.54:229][301]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.05.15-17.30.54:229][301]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.05.15-17.30.54:229][301]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 381 Packages Remain 10 Total 391
+[2022.05.15-17.30.55:548][325]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Started 9 'Local' shader compile jobs with 'Low' priority
+[2022.05.15-17.30.56:232][341]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 382 Packages Remain 9 Total 391
+[2022.05.15-17.30.57:372][359]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Started 8 'Local' shader compile jobs with 'Low' priority
+[2022.05.15-17.30.58:244][365]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 384 Packages Remain 7 Total 391
+[2022.05.15-17.31.00:231][403]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Started 7 'Local' shader compile jobs with 'Low' priority
+[2022.05.15-17.31.00:232][403]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 385 Packages Remain 6 Total 391
+[2022.05.15-17.31.03:981][457]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Started 6 'Local' shader compile jobs with 'Low' priority
+[2022.05.15-17.31.03:981][457]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Started 6 'Local' shader compile jobs with 'Low' priority
+[2022.05.15-17.31.03:981][457]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Started 5 'Local' shader compile jobs with 'Low' priority
+[2022.05.15-17.31.03:981][457]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Started 4 'Local' shader compile jobs with 'Low' priority
+[2022.05.15-17.31.03:981][457]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 386 Packages Remain 5 Total 391
+[2022.05.15-17.31.04:196][461]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Started 4 'Local' shader compile jobs with 'Low' priority
+[2022.05.15-17.31.04:287][462]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 387 Packages Remain 4 Total 391
+[2022.05.15-17.31.08:257][536]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Started 3 'Local' shader compile jobs with 'Low' priority
+[2022.05.15-17.31.08:257][536]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Started 3 'Local' shader compile jobs with 'Low' priority
+[2022.05.15-17.31.08:257][536]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Low' priority
+[2022.05.15-17.31.08:257][536]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cook Diagnostics: OpenFileHandles=394, VirtualMemory=931MiB
+[2022.05.15-17.31.08:402][539]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Low' priority
+[2022.05.15-17.31.08:402][539]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 388 Packages Remain 3 Total 391
+[2022.05.15-17.31.09:732][568]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Low' priority
+[2022.05.15-17.31.09:732][568]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Low' priority
+[2022.05.15-17.31.09:732][568]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Low' priority
+[2022.05.15-17.31.10:231][581]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 389 Packages Remain 2 Total 391
+[2022.05.15-17.31.12:314][616]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Low' priority
+[2022.05.15-17.31.12:314][616]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Low' priority
+[2022.05.15-17.31.12:314][616]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Low' priority
+[2022.05.15-17.31.12:314][616]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Low' priority
+[2022.05.15-17.31.12:314][616]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Low' priority
+[2022.05.15-17.31.12:314][616]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Low' priority
+[2022.05.15-17.31.12:314][616]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 390 Packages Remain 1 Total 391
+[2022.05.15-17.31.13:037][642]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 391 Packages Remain 0 Total 391
+[2022.05.15-17.31.13:037][642]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cook Diagnostics: OpenFileHandles=394, VirtualMemory=931MiB
+[2022.05.15-17.31.13:037][642]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Finishing up...
+[2022.05.15-17.31.13:039][642]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Saving BulkData manifest(s)...
+[2022.05.15-17.31.13:041][642]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Done saving BulkData manifest(s)
+[2022.05.15-17.31.13:045][642]UATHelper: Packaging (Windows (64-bit)):   LogBlueprintCodeGen: Display: Nativization Summary - AnimBP:
+[2022.05.15-17.31.13:047][642]UATHelper: Packaging (Windows (64-bit)):   LogBlueprintCodeGen: Display: Name, Children, Non-empty Functions (Empty Functions), Variables, FunctionUsage, VariableUsage
+[2022.05.15-17.31.13:047][642]UATHelper: Packaging (Windows (64-bit)):   LogBlueprintCodeGen: Display: Nativization Summary - Shared Variables From Graph: 0
+[2022.05.15-17.31.13:093][644]UATHelper: Packaging (Windows (64-bit)):   LogAssetRegistryGenerator: Display: Saving asset registry v8.
+[2022.05.15-17.31.13:133][646]UATHelper: Packaging (Windows (64-bit)):   LogAssetRegistryGenerator: Display: Generated asset registry num assets 409, size is 135.73kb
+[2022.05.15-17.31.13:133][646]UATHelper: Packaging (Windows (64-bit)):   LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2022.05.15-17.31.13:189][649]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display:
+[2022.05.15-17.31.13:189][649]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Shader Library 'TorontoGameJam' (PCD3D_SM5) Stats:
+[2022.05.15-17.31.13:189][649]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: =================
+[2022.05.15-17.31.13:191][649]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Assets: 69, Unique Shadermaps: 55 (79.71%)
+[2022.05.15-17.31.13:191][649]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Total Shaders: 1938, Unique Shaders: 1604 (82.77%)
+[2022.05.15-17.31.13:210][650]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Total Shader Size: 3.88mb, Unique Shaders Size: 3.33mb (85.99%)
+[2022.05.15-17.31.13:210][650]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: === Extended info:
+[2022.05.15-17.31.13:210][650]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Minimum number of shaders in shadermap: 2
+[2022.05.15-17.31.13:210][650]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Median number of shaders in shadermap: 17
+[2022.05.15-17.31.13:210][650]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Maximum number of shaders in shadermap: 493
+[2022.05.15-17.31.13:210][650]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Number of shadermaps referencing top 10 most shared shaders:
+[2022.05.15-17.31.13:210][650]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display:     18, 18, 8, 7, 7, 7, 7, 7, 6, 6
+[2022.05.15-17.31.13:210][650]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Textual dump saved to '../../../../../Users/nktri/Documents/GitHub/Toronto-Game-Jam/TorontoGameJam/Saved/Shaders/PCD3D_SM5/ShaderDebug-TorontoGameJam-PCD3D_SM5/Dump.txt'
+[2022.05.15-17.31.13:210][650]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: =================
+[2022.05.15-17.31.13:210][650]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cook by the book total time in tick 21.379119s total time 37.541122
+[2022.05.15-17.31.13:210][650]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Peak Used virtual 1072 MiB Peak Used physical 1062 MiB
+[2022.05.15-17.31.13:210][650]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Hierarchy Timer Information:
+[2022.05.15-17.31.13:210][650]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:   Root: 0.000s (0)
+[2022.05.15-17.31.13:210][650]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     CleanSandbox: 0.012s (1)
+[2022.05.15-17.31.13:210][650]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       ProcessingAccessedStrings: 0.002s (1)
+[2022.05.15-17.31.13:210][650]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     CollectFilesToCook: 0.006s (1)
+[2022.05.15-17.31.13:210][650]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       CookModificationDelegate: 0.000s (1)
+[2022.05.15-17.31.13:210][650]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     GenerateLongPackageName: 0.000s (1)
+[2022.05.15-17.31.13:210][650]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     TickCookOnTheSide: 21.352s (223545)
+[2022.05.15-17.31.13:210][650]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       PostLoadPackageFixup: 0.017s (447578)
+[2022.05.15-17.31.13:210][650]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       LoadPackageForCooking: 0.675s (391)
+[2022.05.15-17.31.13:210][650]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       SavingPackages: 20.471s (223574)
+[2022.05.15-17.31.13:210][650]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         BeginPackageCacheForCookedPlatformData: 0.037s (18)
+[2022.05.15-17.31.13:210][650]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         PrecachePlatformDataForNextPackage: 0.668s (390)
+[2022.05.15-17.31.13:210][650]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:           BeginPackageCacheForCookedPlatformData: 0.668s (373)
+[2022.05.15-17.31.13:210][650]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         SaveCookedPackage: 0.848s (391)
+[2022.05.15-17.31.13:210][650]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:           GEditorSavePackage: 0.833s (391)
+[2022.05.15-17.31.13:210][650]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:             ConvertingBlueprints: 0.006s (391)
+[2022.05.15-17.31.13:210][650]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:             VerifyCanCookPackage: 0.002s (387)
+[2022.05.15-17.31.13:210][650]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         ClearAllCachedCookedPlatformData: 0.005s (391)
+[2022.05.15-17.31.13:210][650]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     FinalizePackageStore: 0.001s (1)
+[2022.05.15-17.31.13:210][650]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     GeneratingBlueprintAssets: 0.006s (1)
+[2022.05.15-17.31.13:210][650]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     SavingCurrentIniSettings: 0.011s (1)
+[2022.05.15-17.31.13:210][650]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       ProcessingAccessedStrings: 0.002s (1)
+[2022.05.15-17.31.13:211][650]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     SavingAssetRegistry: 0.140s (1)
+[2022.05.15-17.31.13:211][650]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       BuildChunkManifest: 0.024s (1)
+[2022.05.15-17.31.13:211][650]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       SaveManifests: 0.006s (1)
+[2022.05.15-17.31.13:211][650]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       SaveRealAssetRegistry: 0.041s (1)
+[2022.05.15-17.31.13:211][650]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       WriteCookerOpenOrder: 0.035s (1)
+[2022.05.15-17.31.13:211][650]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Done!
+[2022.05.15-17.31.13:211][650]UATHelper: Packaging (Windows (64-bit)):   LogSavePackage: Display: Took 0.000659s to verify the EDL loading graph.
+[2022.05.15-17.31.13:229][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Misc Cook Stats
+[2022.05.15-17.31.13:229][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: ===============
+[2022.05.15-17.31.13:229][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: NiagaraShader.Misc
+[2022.05.15-17.31.13:229][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     ShadersCompiled=0
+[2022.05.15-17.31.13:229][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: ShaderCompiler
+[2022.05.15-17.31.13:229][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     BlockingTimeSec=0.000025
+[2022.05.15-17.31.13:229][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     AsyncCompileTimeSec=270.887481
+[2022.05.15-17.31.13:229][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     GlobalBeginCompileShaderTimeSec=0.215511
+[2022.05.15-17.31.13:229][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     GlobalBeginCompileShaderCalls=228
+[2022.05.15-17.31.13:229][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     ProcessAsyncResultsTimeSec=0.660771
+[2022.05.15-17.31.13:229][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: GlobalShader.Misc
+[2022.05.15-17.31.13:229][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     ShadersCompiled=0
+[2022.05.15-17.31.13:229][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: MeshMaterial.Misc
+[2022.05.15-17.31.13:229][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     ShadersCompiled=228
+[2022.05.15-17.31.13:229][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: MaterialShader.Misc
+[2022.05.15-17.31.13:229][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     ShadersCompiled=0
+[2022.05.15-17.31.13:229][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Package.Load
+[2022.05.15-17.31.13:229][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     NumPreloadedDependencies=147
+[2022.05.15-17.31.13:230][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     NumInlineLoads=9
+[2022.05.15-17.31.13:230][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     NumPackagesLoaded=303
+[2022.05.15-17.31.13:230][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     LoadPackageTimeSec=1.239443
+[2022.05.15-17.31.13:230][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: CookOnTheFlyServer
+[2022.05.15-17.31.13:230][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     PeakRequestQueueSize=31
+[2022.05.15-17.31.13:230][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     PeakLoadQueueSize=214
+[2022.05.15-17.31.13:230][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     PeakSaveQueueSize=206
+[2022.05.15-17.31.13:230][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Package.Save
+[2022.05.15-17.31.13:230][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     NumPackagesSaved=391
+[2022.05.15-17.31.13:230][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SavePackageTimeSec=0.787674
+[2022.05.15-17.31.13:230][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     TagPackageExportsPresaveTimeSec=0.124453
+[2022.05.15-17.31.13:230][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     TagPackageExportsTimeSec=0.028263
+[2022.05.15-17.31.13:230][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     FullyLoadLoadersTimeSec=0.000186
+[2022.05.15-17.31.13:230][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     ResetLoadersTimeSec=0.001705
+[2022.05.15-17.31.13:230][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     TagPackageExportsGetObjectsWithOuter=0.002791
+[2022.05.15-17.31.13:230][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     TagPackageExportsGetObjectsWithMarks=0.000266
+[2022.05.15-17.31.13:230][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SerializeImportsTimeSec=0.000000
+[2022.05.15-17.31.13:230][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SortExportsSeekfreeInnerTimeSec=0.126741
+[2022.05.15-17.31.13:230][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SerializeExportsTimeSec=0.269487
+[2022.05.15-17.31.13:230][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SerializeBulkDataTimeSec=0.059720
+[2022.05.15-17.31.13:230][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     AsyncWriteTimeSec=0.000000
+[2022.05.15-17.31.13:230][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     MBWritten=263.467318
+[2022.05.15-17.31.13:230][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Package.DifferentPackagesSizeMBPerAsset
+[2022.05.15-17.31.13:230][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Package.NumberOfDifferencesInPackagesPerAsset
+[2022.05.15-17.31.13:230][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Package.PackageDifferencesSizeMBPerAsset
+[2022.05.15-17.31.13:230][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Package.DiffTotal
+[2022.05.15-17.31.13:230][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     NumberOfDifferentPackages=0
+[2022.05.15-17.31.13:230][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     DifferentPackagesSizeMB=0.000000
+[2022.05.15-17.31.13:230][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     NumberOfDifferencesInPackages=0
+[2022.05.15-17.31.13:230][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     PackageDifferencesSizeMB=0.000000
+[2022.05.15-17.31.13:230][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: UnversionedProperties
+[2022.05.15-17.31.13:230][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SavedStructs=0
+[2022.05.15-17.31.13:230][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SavedMB=0
+[2022.05.15-17.31.13:230][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     EquivalentTaggedMB=0
+[2022.05.15-17.31.13:230][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     CompressionRatio=-nan(ind)
+[2022.05.15-17.31.13:230][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     BitfieldWasteKB=0
+[2022.05.15-17.31.13:230][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:
+[2022.05.15-17.31.13:230][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Cook Profile
+[2022.05.15-17.31.13:230][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: ============
+[2022.05.15-17.31.13:230][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0.CookWallTimeSec=44.586536
+[2022.05.15-17.31.13:230][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 0.StartupWallTimeSec=7.032497
+[2022.05.15-17.31.13:230][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1.CookByTheBookTimeSec=37.549263
+[2022.05.15-17.31.13:230][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 0.StartCookByTheBookTimeSec=1.483651
+[2022.05.15-17.31.13:230][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 0. 0.GameCookModificationDelegateTimeSec=0.000415
+[2022.05.15-17.31.13:230][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 1.TickCookOnTheSideTimeSec=21.586170
+[2022.05.15-17.31.13:230][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 1. 0.TickCookOnTheSideLoadPackagesTimeSec=0.675520
+[2022.05.15-17.31.13:230][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 1. 1.TickCookOnTheSideSaveCookedPackageTimeSec=0.848224
+[2022.05.15-17.31.13:230][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 1. 1. 0.TickCookOnTheSideResolveRedirectorsTimeSec=0.000000
+[2022.05.15-17.31.13:230][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 1. 2.TickCookOnTheSideBeginPackageCacheForCookedPlatformDataTimeSec=0.705066
+[2022.05.15-17.31.13:230][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 1. 3.TickCookOnTheSideFinishPackageCacheForCookedPlatformDataTimeSec=0.000000
+[2022.05.15-17.31.13:231][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 2.TickLoopGCTimeSec=0.000000
+[2022.05.15-17.31.13:231][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 3.TickLoopRecompileShaderRequestsTimeSec=8.363213
+[2022.05.15-17.31.13:231][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 4.TickLoopShaderProcessAsyncResultsTimeSec=0.066746
+[2022.05.15-17.31.13:231][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 5.TickLoopProcessDeferredCommandsTimeSec=0.182543
+[2022.05.15-17.31.13:231][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 6.TickLoopTickCommandletStatsTimeSec=0.030246
+[2022.05.15-17.31.13:231][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:
+[2022.05.15-17.31.13:231][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: DDC Summary Stats
+[2022.05.15-17.31.13:231][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: =================
+[2022.05.15-17.31.13:231][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: TotalGetHits    =       967
+[2022.05.15-17.31.13:231][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: TotalGets       =       992
+[2022.05.15-17.31.13:231][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: TotalGetHitPct  =  0.974798
+[2022.05.15-17.31.13:231][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: LocalGetHitPct  =  0.300403
+[2022.05.15-17.31.13:231][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: SharedGetHitPct =  0.000000
+[2022.05.15-17.31.13:231][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: OtherGetHitPct  =  0.674395
+[2022.05.15-17.31.13:231][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: GetMissPct      =  0.025202
+[2022.05.15-17.31.13:231][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: TotalPutHits    =        39
+[2022.05.15-17.31.13:231][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: TotalPuts       =        39
+[2022.05.15-17.31.13:231][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: TotalPutHitPct  =  1.000000
+[2022.05.15-17.31.13:231][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: PutMissPct      =  0.000000
+[2022.05.15-17.31.13:231][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:
+[2022.05.15-17.31.13:231][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: DDC Resource Stats
+[2022.05.15-17.31.13:231][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: =======================================================================================================
+[2022.05.15-17.31.13:231][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Asset Type                          Total Time (Sec)  GameThread Time (Sec)  Assets Built  MB Processed
+[2022.05.15-17.31.13:231][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: ----------------------------------  ----------------  ---------------------  ------------  ------------
+[2022.05.15-17.31.13:231][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Texture (Streaming)                             0.26                   0.00             0         93.62
+[2022.05.15-17.31.13:231][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: MaterialShader                                  0.22                   0.22            13          6.27
+[2022.05.15-17.31.13:231][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: StaticMesh                                      0.21                   0.21             0        107.44
+[2022.05.15-17.31.13:231][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: PhysX (BodySetup)                               0.09                   0.09             0         17.51
+[2022.05.15-17.31.13:231][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: NavCollision                                    0.02                   0.02             0          0.14
+[2022.05.15-17.31.13:231][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Audio (Inline)                                  0.01                   0.01            12          1.35
+[2022.05.15-17.31.13:231][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: GlobalShader                                    0.01                   0.01             0          6.31
+[2022.05.15-17.31.13:231][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: SoundWave                                       0.00                   0.00             0          1.16
+[2022.05.15-17.31.13:231][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Texture (Inline)                                0.00                   0.00             0         56.00
+[2022.05.15-17.31.13:231][651]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: DistanceField                                   0.00                   0.00             0          0.00
+[2022.05.15-17.31.13:231][651]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display:
+[2022.05.15-17.31.13:231][651]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: Success - 0 error(s), 0 warning(s)
+[2022.05.15-17.31.13:231][651]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display:
+[2022.05.15-17.31.13:231][651]UATHelper: Packaging (Windows (64-bit)):   
+[2022.05.15-17.31.13:231][651]UATHelper: Packaging (Windows (64-bit)):   Execution of commandlet took:  37.58 seconds
+[2022.05.15-17.31.13:447][662]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.05.15-17.31.13:448][662]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Total job queries 228, among them cache hits 0 (0.00%)
+[2022.05.15-17.31.13:448][662]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Tracking 228 distinct input hashes that result in 90 distinct outputs (39.47%)
+[2022.05.15-17.31.13:448][662]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: RAM used: 0.60 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.07%
+[2022.05.15-17.31.13:448][662]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: ================================================
+[2022.05.15-17.31.13:792][663]UATHelper: Packaging (Windows (64-bit)):   LogHttp: Display: cleaning up 0 outstanding Http requests.
+[2022.05.15-17.31.14:141][665]UATHelper: Packaging (Windows (64-bit)):   LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2022.05.15-17.31.15:154][668]UATHelper: Packaging (Windows (64-bit)): Took 47.0690928s to run UE4Editor-Cmd.exe, ExitCode=0
+[2022.05.15-17.31.15:154][668]UATHelper: Packaging (Windows (64-bit)): ********** COOK COMMAND COMPLETED **********
+[2022.05.15-17.31.15:154][668]UATHelper: Packaging (Windows (64-bit)): ********** STAGE COMMAND STARTED **********
+[2022.05.15-17.31.15:154][668]UATHelper: Packaging (Windows (64-bit)): Creating Staging Manifest...
+[2022.05.15-17.31.15:154][668]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\UE_4.27\Engine\Config\BaseEditor.ini
+[2022.05.15-17.31.15:154][668]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\UE_4.27\Engine\Config\BaseEditorKeyBindings.ini
+[2022.05.15-17.31.15:154][668]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\UE_4.27\Engine\Config\BaseEditorPerProjectUserSettings.ini
+[2022.05.15-17.31.15:154][668]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\UE_4.27\Engine\Config\BaseEditorSettings.ini
+[2022.05.15-17.31.15:154][668]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\UE_4.27\Engine\Config\BaseLightmass.ini
+[2022.05.15-17.31.15:154][668]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\UE_4.27\Engine\Config\BasePakFileRules.ini
+[2022.05.15-17.31.15:154][668]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\UE_4.27\Engine\Config\Localization\Category.ini
+[2022.05.15-17.31.15:154][668]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\UE_4.27\Engine\Config\Localization\Editor.ini
+[2022.05.15-17.31.15:154][668]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\UE_4.27\Engine\Config\Localization\EditorTutorials.ini
+[2022.05.15-17.31.15:154][668]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\UE_4.27\Engine\Config\Localization\Engine.ini
+[2022.05.15-17.31.15:154][668]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\UE_4.27\Engine\Config\Localization\Keywords.ini
+[2022.05.15-17.31.15:154][668]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\UE_4.27\Engine\Config\Localization\PortableObjectExport.ini
+[2022.05.15-17.31.15:154][668]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\UE_4.27\Engine\Config\Localization\PortableObjectImport.ini
+[2022.05.15-17.31.15:154][668]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\UE_4.27\Engine\Config\Localization\PropertyNames.ini
+[2022.05.15-17.31.15:154][668]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\UE_4.27\Engine\Config\Localization\RepairData.ini
+[2022.05.15-17.31.15:154][668]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\UE_4.27\Engine\Config\Localization\ToolTips.ini
+[2022.05.15-17.31.15:154][668]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\UE_4.27\Engine\Config\Localization\WordCount.ini
+[2022.05.15-17.31.15:154][668]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Users\nktri\Documents\GitHub\Toronto-Game-Jam\TorontoGameJam\Config\DefaultEditor.ini
+[2022.05.15-17.31.15:154][668]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Users\nktri\Documents\GitHub\Toronto-Game-Jam\TorontoGameJam\Config\DefaultEditorPerProjectUserSettings.ini
+[2022.05.15-17.31.15:491][669]UATHelper: Packaging (Windows (64-bit)): Cleaning Stage Directory: C:\Users\nktri\Documents\GitHub\Toronto-Game-Jam\TorontoGameJam\Saved\StagedBuilds\WindowsNoEditor
+[2022.05.15-17.31.15:491][669]UATHelper: Packaging (Windows (64-bit)): Creating pak using staging manifest.
+[2022.05.15-17.31.15:491][669]UATHelper: Packaging (Windows (64-bit)): Executing 1 UnrealPak command...
+[2022.05.15-17.31.19:199][680]UATHelper: Packaging (Windows (64-bit)): Waiting for child processes to complete (1/1)
+[2022.05.15-17.31.19:199][680]UATHelper: Packaging (Windows (64-bit)): Output from: C:\Users\nktri\Documents\GitHub\Toronto-Game-Jam\TorontoGameJam\TorontoGameJam.uproject C:\Users\nktri\Documents\GitHub\Toronto-Game-Jam\TorontoGameJam\Saved\StagedBuilds\WindowsNoEditor\TorontoGameJam\Content\Paks\TorontoGameJam-WindowsNoEditor.pak -create="C:\Users\nktri\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+UE_4.27\PakList_TorontoGameJam-WindowsNoEditor.txt" -cryptokeys=C:\Users\nktri\Documents\GitHub\Toronto-Game-Jam\TorontoGameJam\Saved\Cooked\WindowsNoEditor\TorontoGameJam\Metadata\Crypto.json -secondaryOrder=C:\Users\nktri\Documents\GitHub\Toronto-Game-Jam\TorontoGameJam\Build\WindowsNoEditor\FileOpenOrder\CookerOpenOrder.log -patchpaddingalign=2048 -platform=Windows -compressionformats=Oodle -compressmethod=Kraken -compresslevel=3  -multiprocess -abslog="C:\Users\nktri\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+UE_4.27\UnrealPak-TorontoGameJam-WindowsNoEditor-2022.05.15-13.31.15.txt" -compressionblocksize=256KB
+[2022.05.15-17.31.19:199][680]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: Loading text-based GConfig....
+[2022.05.15-17.31.19:199][680]UATHelper: Packaging (Windows (64-bit)):   OodleDataCompression: Display: Oodle v2.9.0 initializing with method=Kraken, level=3=Fast
+[2022.05.15-17.31.19:199][680]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Parsing crypto keys from a crypto key cache file
+[2022.05.15-17.31.19:199][680]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Loading response file C:\Users\nktri\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+UE_4.27\PakList_TorontoGameJam-WindowsNoEditor.txt
+[2022.05.15-17.31.19:199][680]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Added 1928 entries to add to pak file.
+[2022.05.15-17.31.19:199][680]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Loading pak order file C:\Users\nktri\Documents\GitHub\Toronto-Game-Jam\TorontoGameJam\Build\WindowsNoEditor\FileOpenOrder\CookerOpenOrder.log...
+[2022.05.15-17.31.19:199][680]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Finished loading pak order file C:\Users\nktri\Documents\GitHub\Toronto-Game-Jam\TorontoGameJam\Build\WindowsNoEditor\FileOpenOrder\CookerOpenOrder.log.
+[2022.05.15-17.31.19:199][680]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Collecting files to add to pak file...
+[2022.05.15-17.31.19:199][680]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Collected 1928 files in 0.01s.
+[2022.05.15-17.31.19:199][680]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Creating pak C:\Users\nktri\Documents\GitHub\Toronto-Game-Jam\TorontoGameJam\Saved\StagedBuilds\WindowsNoEditor\TorontoGameJam\Content\Paks\TorontoGameJam-WindowsNoEditor.pak.
+[2022.05.15-17.31.19:199][680]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: CompressionFormats in priority order: Oodle, Zlib
+[2022.05.15-17.31.19:199][680]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2022.05.15-17.31.19:199][680]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Performance to C:/Users/nktri/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.00ms. RandomReadSpeed=999.00MBs, RandomWriteSpeed=999.00MBs. Assigned SpeedClass 'Local'
+[2022.05.15-17.31.19:199][680]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: CompressionFormat 0 [Oodle] : 668 files, 286062523 -> 68947543 bytes
+[2022.05.15-17.31.19:199][680]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: CompressionFormat 1 [Zlib] : 61 files, 3374361 -> 1133547 bytes
+[2022.05.15-17.31.19:199][680]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: CompressionFormat 2 [None] : 1199 files, 9904455 -> 9904455 bytes
+[2022.05.15-17.31.19:199][680]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Added 1928 files, 80982007 bytes total, time 2.48s.
+[2022.05.15-17.31.19:199][680]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: PrimaryIndex size: 33454 bytes
+[2022.05.15-17.31.19:199][680]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: PathHashIndex size: 48487 bytes
+[2022.05.15-17.31.19:199][680]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: FullDirectoryIndex size: 64969 bytes
+[2022.05.15-17.31.19:199][680]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Compression summary: 24.21% of original size. Compressed Size 70081090 bytes, Original Size 289436884 bytes.
+[2022.05.15-17.31.19:199][680]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Encryption - DISABLED
+[2022.05.15-17.31.19:200][680]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Unreal pak executed in 2.538665 seconds
+[2022.05.15-17.31.19:200][680]UATHelper: Packaging (Windows (64-bit)): UnrealPak terminated with exit code 0
+[2022.05.15-17.31.19:200][680]UATHelper: Packaging (Windows (64-bit)): Copying NonUFSFiles to staging directory: C:\Users\nktri\Documents\GitHub\Toronto-Game-Jam\TorontoGameJam\Saved\StagedBuilds\WindowsNoEditor
+[2022.05.15-17.31.19:534][681]UATHelper: Packaging (Windows (64-bit)): ********** STAGE COMMAND COMPLETED **********
+[2022.05.15-17.31.19:535][681]UATHelper: Packaging (Windows (64-bit)): ********** PACKAGE COMMAND STARTED **********
+[2022.05.15-17.31.19:535][681]UATHelper: Packaging (Windows (64-bit)): ********** PACKAGE COMMAND COMPLETED **********
+[2022.05.15-17.31.19:535][681]UATHelper: Packaging (Windows (64-bit)): ********** ARCHIVE COMMAND STARTED **********
+[2022.05.15-17.31.19:535][681]UATHelper: Packaging (Windows (64-bit)): Archiving to C:/Users/nktri/Documents/GitHub/Toronto-Game-Jam
+[2022.05.15-17.31.19:874][682]UATHelper: Packaging (Windows (64-bit)): ********** ARCHIVE COMMAND COMPLETED **********
+[2022.05.15-17.31.19:874][682]UATHelper: Packaging (Windows (64-bit)): BUILD SUCCESSFUL
+[2022.05.15-17.31.19:874][682]UATHelper: Packaging (Windows (64-bit)): AutomationTool exiting with ExitCode=0 (Success)
+[2022.05.15-17.31.27:117][909]LogSlate: Window 'Output Log' being destroyed
+[2022.05.15-17.31.27:121][909]LogSlate: Window 'Output Log' being destroyed
